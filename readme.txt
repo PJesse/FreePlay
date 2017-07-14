@@ -1,3 +1,7 @@
+This is essentially a FreeRTOS/dsPIC33E play ground.
+Originaly Sourced from Microchip at: 
+http://www.embeddedcodesource.com/codesnippet/freertos-for-dspic33e-family
+
 Directories:
 
 + The FreeRTOS/Source directory contains the FreeRTOS source code, and contains

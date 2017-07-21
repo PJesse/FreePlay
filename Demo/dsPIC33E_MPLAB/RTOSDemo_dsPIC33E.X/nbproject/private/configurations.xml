@@ -21,7 +21,7 @@
         </environment>
       </runprofile>
     </conf>
-    <conf name="dsPIC33EP256MC502" type="2">
+    <conf name="dsPIC33EP256MC506" type="2">
       <platformToolSN></platformToolSN>
       <languageToolchainDir>/opt/microchip/xc16/v1.31/bin</languageToolchainDir>
       <mdbdebugger version="1">

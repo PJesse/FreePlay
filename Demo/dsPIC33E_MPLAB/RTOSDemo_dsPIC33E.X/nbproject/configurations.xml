@@ -430,10 +430,10 @@
         <property key="voltagevalue" value="3.5"/>
       </PICkit3PlatformTool>
     </conf>
-    <conf name="dsPIC33EP256MC502" type="2">
+    <conf name="dsPIC33EP256MC506" type="2">
       <toolsSet>
         <developmentServer>localhost</developmentServer>
-        <targetDevice>dsPIC33EP256MC502</targetDevice>
+        <targetDevice>dsPIC33EP256MC506</targetDevice>
         <targetHeader></targetHeader>
         <targetPluginBoard></targetPluginBoard>
         <platformTool>PKOBSKDEPlatformTool</platformTool>

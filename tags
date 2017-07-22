@@ -34,7 +34,6 @@ EVENTS_TEST_H	Demo/Common/include/mevents.h	71;"	d
 EVENT_GROUPS_DEMO_H	Demo/Common/include/EventGroupsDemo.h	79;"	d
 EVENT_GROUPS_H	Source/include/event_groups.h	71;"	d
 E_TRIS	Demo/dsPIC33E_MPLAB/lcd.c	133;"	d	file:
-E_TRIS	Demo/dsPIC33F_MPLAB/lcd.c	133;"	d	file:
 EventBits_t	Source/include/event_groups.h	/^typedef TickType_t EventBits_t;$/;"	t
 EventGroupHandle_t	Source/include/event_groups.h	/^typedef void * EventGroupHandle_t;$/;"	t
 EventGroup_t	Source/event_groups.c	/^} EventGroup_t;$/;"	t	typeref:struct:xEventGroupDefinition	file:
@@ -42,40 +41,24 @@ FILE_IO_H	Demo/Common/include/fileIO.h	71;"	d
 FLASH_LED_H	Demo/Common/include/flash.h	71;"	d
 FLASH_TIMER_H	Demo/Common/include/flash_timer.h	71;"	d
 FLOP_TASKS_H	Demo/Common/include/flop.h	71;"	d
-FREERTOS_CONFIG_H	Demo/PIC24_MPLAB/FreeRTOSConfig.h	71;"	d
 FREERTOS_CONFIG_H	Demo/dsPIC33E_MPLAB/FreeRTOSConfig.h	71;"	d
-FREERTOS_CONFIG_H	Demo/dsPIC33F_MPLAB/FreeRTOSConfig.h	71;"	d
 GEN_Q_TEST_H	Demo/Common/include/GenQTest.h	71;"	d
 HeapRegion	Source/include/portable.h	/^typedef struct HeapRegion$/;"	s
 HeapRegion_t	Source/include/portable.h	/^} HeapRegion_t;$/;"	t	typeref:struct:HeapRegion
 INCLUDE_eTaskGetState	Source/include/FreeRTOS.h	202;"	d
 INCLUDE_uxTaskGetStackHighWaterMark	Source/include/FreeRTOS.h	198;"	d
-INCLUDE_uxTaskPriorityGet	Demo/PIC24_MPLAB/FreeRTOSConfig.h	109;"	d
 INCLUDE_uxTaskPriorityGet	Demo/dsPIC33E_MPLAB/FreeRTOSConfig.h	108;"	d
-INCLUDE_uxTaskPriorityGet	Demo/dsPIC33F_MPLAB/FreeRTOSConfig.h	108;"	d
 INCLUDE_uxTaskPriorityGet	Source/include/FreeRTOS.h	158;"	d
-INCLUDE_vTaskCleanUpResources	Demo/PIC24_MPLAB/FreeRTOSConfig.h	111;"	d
 INCLUDE_vTaskCleanUpResources	Demo/dsPIC33E_MPLAB/FreeRTOSConfig.h	110;"	d
-INCLUDE_vTaskCleanUpResources	Demo/dsPIC33F_MPLAB/FreeRTOSConfig.h	110;"	d
-INCLUDE_vTaskDelay	Demo/PIC24_MPLAB/FreeRTOSConfig.h	114;"	d
 INCLUDE_vTaskDelay	Demo/dsPIC33E_MPLAB/FreeRTOSConfig.h	113;"	d
-INCLUDE_vTaskDelay	Demo/dsPIC33F_MPLAB/FreeRTOSConfig.h	113;"	d
 INCLUDE_vTaskDelay	Source/include/FreeRTOS.h	174;"	d
-INCLUDE_vTaskDelayUntil	Demo/PIC24_MPLAB/FreeRTOSConfig.h	113;"	d
 INCLUDE_vTaskDelayUntil	Demo/dsPIC33E_MPLAB/FreeRTOSConfig.h	112;"	d
-INCLUDE_vTaskDelayUntil	Demo/dsPIC33F_MPLAB/FreeRTOSConfig.h	112;"	d
 INCLUDE_vTaskDelayUntil	Source/include/FreeRTOS.h	170;"	d
-INCLUDE_vTaskDelete	Demo/PIC24_MPLAB/FreeRTOSConfig.h	110;"	d
 INCLUDE_vTaskDelete	Demo/dsPIC33E_MPLAB/FreeRTOSConfig.h	109;"	d
-INCLUDE_vTaskDelete	Demo/dsPIC33F_MPLAB/FreeRTOSConfig.h	109;"	d
 INCLUDE_vTaskDelete	Source/include/FreeRTOS.h	162;"	d
-INCLUDE_vTaskPrioritySet	Demo/PIC24_MPLAB/FreeRTOSConfig.h	108;"	d
 INCLUDE_vTaskPrioritySet	Demo/dsPIC33E_MPLAB/FreeRTOSConfig.h	107;"	d
-INCLUDE_vTaskPrioritySet	Demo/dsPIC33F_MPLAB/FreeRTOSConfig.h	107;"	d
 INCLUDE_vTaskPrioritySet	Source/include/FreeRTOS.h	154;"	d
-INCLUDE_vTaskSuspend	Demo/PIC24_MPLAB/FreeRTOSConfig.h	112;"	d
 INCLUDE_vTaskSuspend	Demo/dsPIC33E_MPLAB/FreeRTOSConfig.h	111;"	d
-INCLUDE_vTaskSuspend	Demo/dsPIC33F_MPLAB/FreeRTOSConfig.h	111;"	d
 INCLUDE_vTaskSuspend	Source/include/FreeRTOS.h	166;"	d
 INCLUDE_xQueueGetMutexHolder	Source/include/FreeRTOS.h	186;"	d
 INCLUDE_xSemaphoreGetMutexHolder	Source/include/FreeRTOS.h	190;"	d
@@ -90,9 +73,7 @@ INC_FREERTOS_H	Source/include/FreeRTOS.h	71;"	d
 INC_TASK_H	Source/include/task.h	72;"	d
 INTEGER_TASKS_H	Demo/Common/include/integer.h	71;"	d
 INT_SEM_TEST_H	Demo/Common/include/IntSemTest.h	71;"	d
-LCD_INC_H	Demo/PIC24_MPLAB/lcd.h	71;"	d
 LCD_INC_H	Demo/dsPIC33E_MPLAB/lcd.h	71;"	d
-LCD_INC_H	Demo/dsPIC33F_MPLAB/lcd.h	71;"	d
 LED_PARAMETERS	Demo/Common/Full/flash.c	/^typedef struct LED_PARAMETERS$/;"	s	file:
 LIST_H	Source/include/list.h	103;"	d
 ListItem_t	Source/include/list.h	/^typedef struct xLIST_ITEM ListItem_t;					\/* For some reason lint wants this as two separate definitions. *\/$/;"	t	typeref:struct:xLIST_ITEM
@@ -205,7 +186,6 @@ MPU_xTimerPendFunctionCall	Source/portable/Common/mpu_wrappers.c	/^	BaseType_t M
 MemoryRegion_t	Source/include/task.h	/^} MemoryRegion_t;$/;"	t	typeref:struct:xMEMORY_REGION
 MiniListItem_t	Source/include/list.h	/^typedef struct xMINI_LIST_ITEM MiniListItem_t;$/;"	t	typeref:struct:xMINI_LIST_ITEM
 PARTEST_H	Demo/Common/include/partest.h	71;"	d
-PMAEN	Demo/dsPIC33F_MPLAB/lcd.c	119;"	d	file:
 POLLED_Q_H	Demo/Common/include/PollQ.h	71;"	d
 PORTABLE_H	Source/include/portable.h	75;"	d
 PORTMACRO_H	Source/portable/MPLAB/PIC24_dsPIC/portmacro.h	71;"	d
@@ -232,9 +212,7 @@ QueueSetMemberHandle_t	Source/include/queue.h	/^typedef void * QueueSetMemberHan
 Queue_t	Source/queue.c	/^typedef xQUEUE Queue_t;$/;"	t	file:
 RECURSIVE_MUTEX_TEST_H	Demo/Common/include/recmutex.h	71;"	d
 RS_TRIS	Demo/dsPIC33E_MPLAB/lcd.c	132;"	d	file:
-RS_TRIS	Demo/dsPIC33F_MPLAB/lcd.c	132;"	d	file:
 RW_TRIS	Demo/dsPIC33E_MPLAB/lcd.c	131;"	d	file:
-RW_TRIS	Demo/dsPIC33F_MPLAB/lcd.c	131;"	d	file:
 SEMAPHORE_H	Source/include/semphr.h	71;"	d
 SEMAPHORE_PARAMETERS	Demo/Common/Full/semtest.c	/^typedef struct SEMAPHORE_PARAMETERS$/;"	s	file:
 SEMAPHORE_PARAMETERS	Demo/Common/Minimal/semtest.c	/^typedef struct SEMAPHORE_PARAMETERS$/;"	s	file:
@@ -257,11 +235,8 @@ TASK_NOTIFY_H	Demo/Common/include/TaskNotify.h	71;"	d
 TCB_t	Source/tasks.c	/^typedef tskTCB TCB_t;$/;"	t	file:
 TIMERS_H	Source/include/timers.h	72;"	d
 TIMER_DEMO_H	Demo/Common/include/TimerDemo.h	71;"	d
-TIMER_TEST_H	Demo/PIC24_MPLAB/timertest.h	71;"	d
 TIMER_TEST_H	Demo/dsPIC33E_MPLAB/timertest.h	71;"	d
-TIMER_TEST_H	Demo/dsPIC33F_MPLAB/timertest.h	71;"	d
 TRISDATA	Demo/dsPIC33E_MPLAB/lcd.c	140;"	d	file:
-TRISDATA	Demo/dsPIC33F_MPLAB/lcd.c	140;"	d	file:
 TaskFunction_t	Source/include/projdefs.h	/^typedef void (*TaskFunction_t)( void * );$/;"	t
 TaskHandle_t	Source/include/task.h	/^typedef void * TaskHandle_t;$/;"	t
 TaskHookFunction_t	Source/include/task.h	/^typedef BaseType_t (*TaskHookFunction_t)( void * );$/;"	t
@@ -275,15 +250,9 @@ TimerHandle_t	Source/include/timers.h	/^typedef void * TimerHandle_t;$/;"	t
 TimerParameter_t	Source/timers.c	/^} TimerParameter_t;$/;"	t	typeref:struct:tmrTimerParameters	file:
 Timer_t	Source/timers.c	/^typedef xTIMER Timer_t;$/;"	t	file:
 UBaseType_t	Source/portable/MPLAB/PIC24_dsPIC/portmacro.h	/^typedef unsigned short UBaseType_t;$/;"	t
-_T2Interrupt	Demo/PIC24_MPLAB/timertest.c	/^void __attribute__((__interrupt__, auto_psv)) _T2Interrupt( void )$/;"	f
 _T2Interrupt	Demo/dsPIC33E_MPLAB/timertest.c	/^void __attribute__((__interrupt__, auto_psv)) _T2Interrupt( void )$/;"	f
-_T2Interrupt	Demo/dsPIC33F_MPLAB/timertest.c	/^void __attribute__((__interrupt__, auto_psv)) _T2Interrupt( void )$/;"	f
-_U2RXInterrupt	Demo/PIC24_MPLAB/serial/serial.c	/^void __attribute__((__interrupt__, auto_psv)) _U2RXInterrupt( void )$/;"	f
 _U2RXInterrupt	Demo/dsPIC33E_MPLAB/serial/serial.c	/^void __attribute__((__interrupt__, auto_psv)) _U2RXInterrupt( void )$/;"	f
-_U2RXInterrupt	Demo/dsPIC33F_MPLAB/serial/serial.c	/^void __attribute__((__interrupt__, auto_psv)) _U2RXInterrupt( void )$/;"	f
-_U2TXInterrupt	Demo/PIC24_MPLAB/serial/serial.c	/^void __attribute__((__interrupt__, auto_psv)) _U2TXInterrupt( void )$/;"	f
 _U2TXInterrupt	Demo/dsPIC33E_MPLAB/serial/serial.c	/^void __attribute__((__interrupt__, auto_psv)) _U2TXInterrupt( void )$/;"	f
-_U2TXInterrupt	Demo/dsPIC33F_MPLAB/serial/serial.c	/^void __attribute__((__interrupt__, auto_psv)) _U2TXInterrupt( void )$/;"	f
 abtBLOCKING_PRIORITY	Demo/Common/Minimal/AbortDelay.c	102;"	d	file:
 abtCONTROLLING_PRIORITY	Demo/Common/Minimal/AbortDelay.c	98;"	d	file:
 abtDELAY_ABORTS	Demo/Common/Minimal/AbortDelay.c	108;"	d	file:
@@ -344,37 +313,22 @@ configAPPLICATION_ALLOCATED_HEAP	Source/include/FreeRTOS.h	764;"	d
 configASSERT	Source/include/FreeRTOS.h	276;"	d
 configASSERT_DEFINED	Source/include/FreeRTOS.h	277;"	d
 configASSERT_DEFINED	Source/include/FreeRTOS.h	279;"	d
-configCHECK_FOR_STACK_OVERFLOW	Demo/PIC24_MPLAB/FreeRTOSConfig.h	99;"	d
 configCHECK_FOR_STACK_OVERFLOW	Source/include/FreeRTOS.h	408;"	d
-configCPU_CLOCK_HZ	Demo/PIC24_MPLAB/FreeRTOSConfig.h	91;"	d
 configCPU_CLOCK_HZ	Demo/dsPIC33E_MPLAB/FreeRTOSConfig.h	91;"	d
-configCPU_CLOCK_HZ	Demo/dsPIC33F_MPLAB/FreeRTOSConfig.h	91;"	d
 configENABLE_BACKWARD_COMPATIBILITY	Source/include/FreeRTOS.h	820;"	d
 configEXPECTED_IDLE_TIME_BEFORE_SLEEP	Source/include/FreeRTOS.h	700;"	d
 configGENERATE_RUN_TIME_STATS	Source/include/FreeRTOS.h	662;"	d
-configIDLE_SHOULD_YIELD	Demo/PIC24_MPLAB/FreeRTOSConfig.h	98;"	d
 configIDLE_SHOULD_YIELD	Demo/dsPIC33E_MPLAB/FreeRTOSConfig.h	98;"	d
-configIDLE_SHOULD_YIELD	Demo/dsPIC33F_MPLAB/FreeRTOSConfig.h	98;"	d
 configIDLE_SHOULD_YIELD	Source/include/FreeRTOS.h	268;"	d
 configINCLUDE_APPLICATION_DEFINED_PRIVILEGED_FUNCTIONS	Source/include/FreeRTOS.h	732;"	d
-configKERNEL_INTERRUPT_PRIORITY	Demo/PIC24_MPLAB/FreeRTOSConfig.h	117;"	d
 configKERNEL_INTERRUPT_PRIORITY	Demo/dsPIC33E_MPLAB/FreeRTOSConfig.h	116;"	d
-configKERNEL_INTERRUPT_PRIORITY	Demo/dsPIC33F_MPLAB/FreeRTOSConfig.h	116;"	d
 configKERNEL_INTERRUPT_PRIORITY	Source/portable/MPLAB/PIC24_dsPIC/port.c	92;"	d	file:
 configLIST_VOLATILE	Source/include/list.h	134;"	d
-configMAX_CO_ROUTINE_PRIORITIES	Demo/PIC24_MPLAB/FreeRTOSConfig.h	103;"	d
 configMAX_CO_ROUTINE_PRIORITIES	Demo/dsPIC33E_MPLAB/FreeRTOSConfig.h	102;"	d
-configMAX_CO_ROUTINE_PRIORITIES	Demo/dsPIC33F_MPLAB/FreeRTOSConfig.h	102;"	d
-configMAX_PRIORITIES	Demo/PIC24_MPLAB/FreeRTOSConfig.h	92;"	d
 configMAX_PRIORITIES	Demo/dsPIC33E_MPLAB/FreeRTOSConfig.h	92;"	d
-configMAX_PRIORITIES	Demo/dsPIC33F_MPLAB/FreeRTOSConfig.h	92;"	d
-configMAX_TASK_NAME_LEN	Demo/PIC24_MPLAB/FreeRTOSConfig.h	95;"	d
 configMAX_TASK_NAME_LEN	Demo/dsPIC33E_MPLAB/FreeRTOSConfig.h	95;"	d
-configMAX_TASK_NAME_LEN	Demo/dsPIC33F_MPLAB/FreeRTOSConfig.h	95;"	d
 configMAX_TASK_NAME_LEN	Source/include/FreeRTOS.h	264;"	d
-configMINIMAL_STACK_SIZE	Demo/PIC24_MPLAB/FreeRTOSConfig.h	93;"	d
 configMINIMAL_STACK_SIZE	Demo/dsPIC33E_MPLAB/FreeRTOSConfig.h	93;"	d
-configMINIMAL_STACK_SIZE	Demo/dsPIC33F_MPLAB/FreeRTOSConfig.h	93;"	d
 configNUM_THREAD_LOCAL_STORAGE_POINTERS	Source/include/FreeRTOS.h	236;"	d
 configPOST_SLEEP_PROCESSING	Source/include/FreeRTOS.h	716;"	d
 configPRE_SLEEP_PROCESSING	Source/include/FreeRTOS.h	712;"	d
@@ -383,49 +337,33 @@ configSUPPORT_DYNAMIC_ALLOCATION	Source/include/FreeRTOS.h	782;"	d
 configSUPPORT_STATIC_ALLOCATION	Source/include/FreeRTOS.h	777;"	d
 configTICK_INTERRUPT_HANDLER	Source/portable/MPLAB/PIC24_dsPIC/port.c	/^void __attribute__((__interrupt__, auto_psv)) configTICK_INTERRUPT_HANDLER( void )$/;"	f
 configTICK_INTERRUPT_HANDLER	Source/portable/MPLAB/PIC24_dsPIC/port.c	98;"	d	file:
-configTICK_RATE_HZ	Demo/PIC24_MPLAB/FreeRTOSConfig.h	90;"	d
 configTICK_RATE_HZ	Demo/dsPIC33E_MPLAB/FreeRTOSConfig.h	90;"	d
-configTICK_RATE_HZ	Demo/dsPIC33F_MPLAB/FreeRTOSConfig.h	90;"	d
 configTIMER_TASK_PRIORITY	Demo/Common/Minimal/blocktim.c	105;"	d	file:
-configTOTAL_HEAP_SIZE	Demo/PIC24_MPLAB/FreeRTOSConfig.h	94;"	d
 configTOTAL_HEAP_SIZE	Demo/dsPIC33E_MPLAB/FreeRTOSConfig.h	94;"	d
-configTOTAL_HEAP_SIZE	Demo/dsPIC33F_MPLAB/FreeRTOSConfig.h	94;"	d
-configUSE_16_BIT_TICKS	Demo/PIC24_MPLAB/FreeRTOSConfig.h	97;"	d
 configUSE_16_BIT_TICKS	Demo/dsPIC33E_MPLAB/FreeRTOSConfig.h	97;"	d
-configUSE_16_BIT_TICKS	Demo/dsPIC33F_MPLAB/FreeRTOSConfig.h	97;"	d
 configUSE_ALTERNATIVE_API	Source/include/FreeRTOS.h	256;"	d
 configUSE_APPLICATION_TASK_TAG	Source/include/FreeRTOS.h	232;"	d
 configUSE_COUNTING_SEMAPHORES	Source/include/FreeRTOS.h	252;"	d
-configUSE_CO_ROUTINES	Demo/PIC24_MPLAB/FreeRTOSConfig.h	102;"	d
 configUSE_CO_ROUTINES	Demo/dsPIC33E_MPLAB/FreeRTOSConfig.h	101;"	d
-configUSE_CO_ROUTINES	Demo/dsPIC33F_MPLAB/FreeRTOSConfig.h	101;"	d
 configUSE_CO_ROUTINES	Source/include/FreeRTOS.h	150;"	d
 configUSE_DAEMON_TASK_STARTUP_HOOK	Source/include/FreeRTOS.h	228;"	d
-configUSE_IDLE_HOOK	Demo/PIC24_MPLAB/FreeRTOSConfig.h	88;"	d
 configUSE_IDLE_HOOK	Demo/dsPIC33E_MPLAB/FreeRTOSConfig.h	88;"	d
-configUSE_IDLE_HOOK	Demo/dsPIC33F_MPLAB/FreeRTOSConfig.h	88;"	d
 configUSE_LIST_DATA_INTEGRITY_CHECK_BYTES	Source/include/projdefs.h	101;"	d
 configUSE_MALLOC_FAILED_HOOK	Source/include/FreeRTOS.h	684;"	d
 configUSE_MUTEXES	Source/include/FreeRTOS.h	244;"	d
 configUSE_NEWLIB_REENTRANT	Source/include/FreeRTOS.h	108;"	d
 configUSE_PORT_OPTIMISED_TASK_SELECTION	Source/include/FreeRTOS.h	760;"	d
-configUSE_PREEMPTION	Demo/PIC24_MPLAB/FreeRTOSConfig.h	87;"	d
 configUSE_PREEMPTION	Demo/dsPIC33E_MPLAB/FreeRTOSConfig.h	87;"	d
-configUSE_PREEMPTION	Demo/dsPIC33F_MPLAB/FreeRTOSConfig.h	87;"	d
 configUSE_QUEUE_SETS	Source/include/FreeRTOS.h	720;"	d
 configUSE_RECURSIVE_MUTEXES	Source/include/FreeRTOS.h	240;"	d
 configUSE_STATS_FORMATTING_FUNCTIONS	Source/include/FreeRTOS.h	736;"	d
 configUSE_TASK_FPU_SUPPORT	Source/include/FreeRTOS.h	861;"	d
 configUSE_TASK_NOTIFICATIONS	Source/include/FreeRTOS.h	768;"	d
 configUSE_TICKLESS_IDLE	Source/include/FreeRTOS.h	708;"	d
-configUSE_TICK_HOOK	Demo/PIC24_MPLAB/FreeRTOSConfig.h	89;"	d
 configUSE_TICK_HOOK	Demo/dsPIC33E_MPLAB/FreeRTOSConfig.h	89;"	d
-configUSE_TICK_HOOK	Demo/dsPIC33F_MPLAB/FreeRTOSConfig.h	89;"	d
 configUSE_TIMERS	Source/include/FreeRTOS.h	248;"	d
 configUSE_TIME_SLICING	Source/include/FreeRTOS.h	728;"	d
-configUSE_TRACE_FACILITY	Demo/PIC24_MPLAB/FreeRTOSConfig.h	96;"	d
 configUSE_TRACE_FACILITY	Demo/dsPIC33E_MPLAB/FreeRTOSConfig.h	96;"	d
-configUSE_TRACE_FACILITY	Demo/dsPIC33F_MPLAB/FreeRTOSConfig.h	96;"	d
 configUSE_TRACE_FACILITY	Source/include/FreeRTOS.h	744;"	d
 corCoRoutineControlBlock	Source/include/croutine.h	/^typedef struct corCoRoutineControlBlock$/;"	s
 corINITIAL_STATE	Source/croutine.c	100;"	d	file:
@@ -453,36 +391,36 @@ crfQUEUE_LENGTH	Demo/Common/Minimal/crflash.c	107;"	d	file:
 deathSTACK_SIZE	Demo/Common/Full/death.c	106;"	d	file:
 deathSTACK_SIZE	Demo/Common/Minimal/death.c	99;"	d	file:
 eAbortSleep	Source/include/task.h	/^	eAbortSleep = 0,		\/* A task has been made ready or a context switch pended since portSUPPORESS_TICKS_AND_SLEEP() was called - abort entering a sleep mode. *\/$/;"	e	enum:__anon5
-eBaud	Demo/Common/include/serial.h	/^} eBaud;$/;"	t	typeref:enum:__anon14
+eBaud	Demo/Common/include/serial.h	/^} eBaud;$/;"	t	typeref:enum:__anon12
 eBlocked	Source/include/task.h	/^	eBlocked,		\/* The task being queried is in the Blocked state. *\/$/;"	e	enum:__anon3
-eCOMPort	Demo/Common/include/serial.h	/^} eCOMPort;$/;"	t	typeref:enum:__anon10
+eCOMPort	Demo/Common/include/serial.h	/^} eCOMPort;$/;"	t	typeref:enum:__anon8
 eCurrentState	Source/include/task.h	/^	eTaskState eCurrentState;		\/* The state in which the task existed when the structure was populated. *\/$/;"	m	struct:xTASK_STATUS
-eDataBits	Demo/Common/include/serial.h	/^} eDataBits;$/;"	t	typeref:enum:__anon13
+eDataBits	Demo/Common/include/serial.h	/^} eDataBits;$/;"	t	typeref:enum:__anon11
 eDeleted	Source/include/task.h	/^	eDeleted,		\/* The task being queried has been deleted, but its TCB has not yet been freed. *\/$/;"	e	enum:__anon3
-eEqualPriority	Demo/Common/Minimal/QueueSet.c	/^	eEqualPriority = 0,	\/* Tx and Rx tasks have the same priority. *\/$/;"	e	enum:__anon15	file:
+eEqualPriority	Demo/Common/Minimal/QueueSet.c	/^	eEqualPriority = 0,	\/* Tx and Rx tasks have the same priority. *\/$/;"	e	enum:__anon13	file:
 eIncrement	Source/include/task.h	/^	eIncrement,					\/* Increment the task's notification value. *\/$/;"	e	enum:__anon4
 eInvalid	Source/include/task.h	/^	eInvalid			\/* Used as an 'invalid state' value. *\/$/;"	e	enum:__anon3
 eNoAction	Source/include/task.h	/^	eNoAction = 0,				\/* Notify the task without updating its notify value. *\/$/;"	e	enum:__anon4
 eNoTasksWaitingTimeout	Source/include/task.h	/^	eNoTasksWaitingTimeout	\/* No tasks are waiting for a timeout so it is safe to enter a sleep mode that can only be exited by an external interrupt. *\/$/;"	e	enum:__anon5
 eNotifyAction	Source/include/task.h	/^} eNotifyAction;$/;"	t	typeref:enum:__anon4
-eParity	Demo/Common/include/serial.h	/^} eParity;$/;"	t	typeref:enum:__anon11
+eParity	Demo/Common/include/serial.h	/^} eParity;$/;"	t	typeref:enum:__anon9
 eReady	Source/include/task.h	/^	eReady,			\/* The task being queried is in a read or pending ready list. *\/$/;"	e	enum:__anon3
-eRelativePriorities	Demo/Common/Minimal/QueueSet.c	/^} eRelativePriorities;$/;"	t	typeref:enum:__anon15	file:
+eRelativePriorities	Demo/Common/Minimal/QueueSet.c	/^} eRelativePriorities;$/;"	t	typeref:enum:__anon13	file:
 eRunning	Source/include/task.h	/^	eRunning = 0,	\/* A task is querying the state of itself, so must be running. *\/$/;"	e	enum:__anon3
 eSetBits	Source/include/task.h	/^	eSetBits,					\/* Set bits in the task's notification value. *\/$/;"	e	enum:__anon4
 eSetValueWithOverwrite	Source/include/task.h	/^	eSetValueWithOverwrite,		\/* Set the task's notification value to a specific value even if the previous value has not yet been read by the task. *\/$/;"	e	enum:__anon4
 eSetValueWithoutOverwrite	Source/include/task.h	/^	eSetValueWithoutOverwrite	\/* Set the task's notification value if the previous value has been read by the task. *\/$/;"	e	enum:__anon4
 eSleepModeStatus	Source/include/task.h	/^} eSleepModeStatus;$/;"	t	typeref:enum:__anon5
 eStandardSleep	Source/include/task.h	/^	eStandardSleep,			\/* Enter a sleep mode that will not last any longer than the expected idle time. *\/$/;"	e	enum:__anon5
-eStopBits	Demo/Common/include/serial.h	/^} eStopBits;$/;"	t	typeref:enum:__anon12
+eStopBits	Demo/Common/include/serial.h	/^} eStopBits;$/;"	t	typeref:enum:__anon10
 eSuspended	Source/include/task.h	/^	eSuspended,		\/* The task being queried is in the Suspended state, or is in the Blocked state with an infinite time out. *\/$/;"	e	enum:__anon3
 eTaskConfirmSleepModeStatus	Source/tasks.c	/^	eSleepModeStatus eTaskConfirmSleepModeStatus( void )$/;"	f
 eTaskGetState	Source/include/mpu_wrappers.h	100;"	d
 eTaskGetState	Source/tasks.c	/^	eTaskState eTaskGetState( TaskHandle_t xTask )$/;"	f
 eTaskState	Source/include/task.h	/^} eTaskState;$/;"	t	typeref:enum:__anon3
 eTaskStateGet	Source/include/FreeRTOS.h	824;"	d
-eTxHigherPriority	Demo/Common/Minimal/QueueSet.c	/^	eTxHigherPriority,	\/* The priority of the Tx task is above that of the Rx task. *\/$/;"	e	enum:__anon15	file:
-eTxLowerPriority	Demo/Common/Minimal/QueueSet.c	/^	eTxLowerPriority	\/* The priority of the Tx task is below that of the Rx task. *\/$/;"	e	enum:__anon15	file:
+eTxHigherPriority	Demo/Common/Minimal/QueueSet.c	/^	eTxHigherPriority,	\/* The priority of the Tx task is above that of the Rx task. *\/$/;"	e	enum:__anon13	file:
+eTxLowerPriority	Demo/Common/Minimal/QueueSet.c	/^	eTxLowerPriority	\/* The priority of the Tx task is below that of the Rx task. *\/$/;"	e	enum:__anon13	file:
 ebALL_BITS	Demo/Common/Minimal/EventGroupsDemo.c	111;"	d	file:
 ebALL_SYNC_BITS	Demo/Common/Minimal/EventGroupsDemo.c	119;"	d	file:
 ebBIT_0	Demo/Common/Minimal/EventGroupsDemo.c	100;"	d	file:
@@ -569,35 +507,17 @@ intsemNO_BLOCK	Demo/Common/Minimal/GenQTest.c	93;"	d	file:
 intsemNO_BLOCK	Demo/Common/Minimal/IntSemTest.c	96;"	d	file:
 intsemSLAVE_PRIORITY	Demo/Common/Minimal/IntSemTest.c	90;"	d	file:
 lcdCLEAR	Demo/dsPIC33E_MPLAB/lcd.c	114;"	d	file:
-lcdCLEAR	Demo/dsPIC33F_MPLAB/lcd.c	114;"	d	file:
-lcdCLEAR_DISPLAY	Demo/PIC24_MPLAB/lcd.c	114;"	d	file:
 lcdDATA	Demo/dsPIC33E_MPLAB/lcd.c	136;"	d	file:
-lcdDATA	Demo/dsPIC33F_MPLAB/lcd.c	136;"	d	file:
 lcdDATAPORT	Demo/dsPIC33E_MPLAB/lcd.c	137;"	d	file:
-lcdDATAPORT	Demo/dsPIC33F_MPLAB/lcd.c	137;"	d	file:
-lcdDEFAULT_FUNCTION	Demo/PIC24_MPLAB/lcd.c	112;"	d	file:
-lcdDISPLAY_CONTROL	Demo/PIC24_MPLAB/lcd.c	113;"	d	file:
 lcdE	Demo/dsPIC33E_MPLAB/lcd.c	128;"	d	file:
-lcdE	Demo/dsPIC33F_MPLAB/lcd.c	128;"	d	file:
-lcdENTRY_MODE	Demo/PIC24_MPLAB/lcd.c	115;"	d	file:
 lcdHOME	Demo/dsPIC33E_MPLAB/lcd.c	115;"	d	file:
-lcdHOME	Demo/dsPIC33F_MPLAB/lcd.c	115;"	d	file:
 lcdLINE2	Demo/dsPIC33E_MPLAB/lcd.c	116;"	d	file:
-lcdLINE2	Demo/dsPIC33F_MPLAB/lcd.c	116;"	d	file:
 lcdLONG_DELAY	Demo/dsPIC33E_MPLAB/lcd.c	111;"	d	file:
-lcdLONG_DELAY	Demo/dsPIC33F_MPLAB/lcd.c	111;"	d	file:
-lcdQUEUE_SIZE	Demo/PIC24_MPLAB/lcd.c	118;"	d	file:
 lcdQUEUE_SIZE	Demo/dsPIC33E_MPLAB/lcd.c	143;"	d	file:
-lcdQUEUE_SIZE	Demo/dsPIC33F_MPLAB/lcd.c	143;"	d	file:
 lcdRS	Demo/dsPIC33E_MPLAB/lcd.c	125;"	d	file:
-lcdRS	Demo/dsPIC33F_MPLAB/lcd.c	125;"	d	file:
 lcdRW	Demo/dsPIC33E_MPLAB/lcd.c	122;"	d	file:
-lcdRW	Demo/dsPIC33F_MPLAB/lcd.c	122;"	d	file:
-lcdSHORT_DELAY	Demo/PIC24_MPLAB/lcd.c	109;"	d	file:
 lcdSHORT_DELAY	Demo/dsPIC33E_MPLAB/lcd.c	110;"	d	file:
-lcdSHORT_DELAY	Demo/dsPIC33F_MPLAB/lcd.c	110;"	d	file:
 lcdVERY_SHORT_DELAY	Demo/dsPIC33E_MPLAB/lcd.c	109;"	d	file:
-lcdVERY_SHORT_DELAY	Demo/dsPIC33F_MPLAB/lcd.c	109;"	d	file:
 ledDONT_BLOCK	Demo/Common/Minimal/flash_timer.c	87;"	d	file:
 ledFLASH_RATE_BASE	Demo/Common/Minimal/flash.c	96;"	d	file:
 ledFLASH_RATE_BASE	Demo/Common/Minimal/flash_timer.c	84;"	d	file:
@@ -639,46 +559,20 @@ listTEST_LIST_INTEGRITY	Source/include/list.h	157;"	d
 listTEST_LIST_INTEGRITY	Source/include/list.h	174;"	d
 listTEST_LIST_ITEM_INTEGRITY	Source/include/list.h	156;"	d
 listTEST_LIST_ITEM_INTEGRITY	Source/include/list.h	173;"	d
-main	Demo/PIC24_MPLAB/main.c	/^int main( void )$/;"	f
 main	Demo/dsPIC33E_MPLAB/main.c	/^int main( void )$/;"	f
-main	Demo/dsPIC33F_MPLAB/main.c	/^int main( void )$/;"	f
-mainBLOCK_Q_PRIORITY	Demo/PIC24_MPLAB/main.c	125;"	d	file:
 mainBLOCK_Q_PRIORITY	Demo/dsPIC33E_MPLAB/main.c	121;"	d	file:
-mainBLOCK_Q_PRIORITY	Demo/dsPIC33F_MPLAB/main.c	122;"	d	file:
-mainCHECK_TAKS_STACK_SIZE	Demo/PIC24_MPLAB/main.c	130;"	d	file:
 mainCHECK_TAKS_STACK_SIZE	Demo/dsPIC33E_MPLAB/main.c	126;"	d	file:
-mainCHECK_TAKS_STACK_SIZE	Demo/dsPIC33F_MPLAB/main.c	127;"	d	file:
-mainCHECK_TASK_PERIOD	Demo/PIC24_MPLAB/main.c	133;"	d	file:
 mainCHECK_TASK_PERIOD	Demo/dsPIC33E_MPLAB/main.c	129;"	d	file:
-mainCHECK_TASK_PERIOD	Demo/dsPIC33F_MPLAB/main.c	130;"	d	file:
-mainCHECK_TASK_PRIORITY	Demo/PIC24_MPLAB/main.c	126;"	d	file:
 mainCHECK_TASK_PRIORITY	Demo/dsPIC33E_MPLAB/main.c	122;"	d	file:
-mainCHECK_TASK_PRIORITY	Demo/dsPIC33F_MPLAB/main.c	123;"	d	file:
-mainCOM_TEST_BAUD_RATE	Demo/PIC24_MPLAB/main.c	139;"	d	file:
 mainCOM_TEST_BAUD_RATE	Demo/dsPIC33E_MPLAB/main.c	135;"	d	file:
-mainCOM_TEST_BAUD_RATE	Demo/dsPIC33F_MPLAB/main.c	136;"	d	file:
-mainCOM_TEST_LED	Demo/PIC24_MPLAB/main.c	143;"	d	file:
 mainCOM_TEST_LED	Demo/dsPIC33E_MPLAB/main.c	139;"	d	file:
-mainCOM_TEST_LED	Demo/dsPIC33F_MPLAB/main.c	140;"	d	file:
-mainCOM_TEST_PRIORITY	Demo/PIC24_MPLAB/main.c	127;"	d	file:
 mainCOM_TEST_PRIORITY	Demo/dsPIC33E_MPLAB/main.c	123;"	d	file:
-mainCOM_TEST_PRIORITY	Demo/dsPIC33F_MPLAB/main.c	124;"	d	file:
-mainEXPECTED_CLOCKS_BETWEEN_INTERRUPTS	Demo/PIC24_MPLAB/main.c	150;"	d	file:
 mainEXPECTED_CLOCKS_BETWEEN_INTERRUPTS	Demo/dsPIC33E_MPLAB/main.c	146;"	d	file:
-mainEXPECTED_CLOCKS_BETWEEN_INTERRUPTS	Demo/dsPIC33F_MPLAB/main.c	147;"	d	file:
 mainHOOK_CR_PRIORITY	Demo/Common/Minimal/crhook.c	116;"	d	file:
-mainMAX_STRING_LENGTH	Demo/PIC24_MPLAB/main.c	157;"	d	file:
 mainMAX_STRING_LENGTH	Demo/dsPIC33E_MPLAB/main.c	153;"	d	file:
-mainMAX_STRING_LENGTH	Demo/dsPIC33F_MPLAB/main.c	154;"	d	file:
-mainNS_PER_CLOCK	Demo/PIC24_MPLAB/main.c	153;"	d	file:
 mainNS_PER_CLOCK	Demo/dsPIC33E_MPLAB/main.c	149;"	d	file:
-mainNS_PER_CLOCK	Demo/dsPIC33F_MPLAB/main.c	150;"	d	file:
-mainNUM_FLASH_COROUTINES	Demo/PIC24_MPLAB/main.c	136;"	d	file:
 mainNUM_FLASH_COROUTINES	Demo/dsPIC33E_MPLAB/main.c	132;"	d	file:
-mainNUM_FLASH_COROUTINES	Demo/dsPIC33F_MPLAB/main.c	133;"	d	file:
-mainTEST_INTERRUPT_FREQUENCY	Demo/PIC24_MPLAB/main.c	146;"	d	file:
 mainTEST_INTERRUPT_FREQUENCY	Demo/dsPIC33E_MPLAB/main.c	142;"	d	file:
-mainTEST_INTERRUPT_FREQUENCY	Demo/dsPIC33F_MPLAB/main.c	143;"	d	file:
 mathNUMBER_OF_TASKS	Demo/Common/Full/flop.c	106;"	d	file:
 mathNUMBER_OF_TASKS	Demo/Common/Minimal/flop.c	98;"	d	file:
 mathNUMBER_OF_TASKS	Demo/Common/Minimal/sp_flop.c	94;"	d	file:
@@ -693,9 +587,7 @@ partstDEFAULT_PORT_ADDRESS	Demo/Common/include/partest.h	73;"	d
 pcBlockingTaskName	Demo/Common/Minimal/AbortDelay.c	/^static const char *pcControllingTaskName = "AbtCtrl", *pcBlockingTaskName = "AbtBlk";$/;"	v	file:
 pcControllingTaskName	Demo/Common/Minimal/AbortDelay.c	/^static const char *pcControllingTaskName = "AbtCtrl", *pcBlockingTaskName = "AbtBlk";$/;"	v	file:
 pcHead	Source/queue.c	/^	int8_t *pcHead;					\/*< Points to the beginning of the queue storage area. *\/$/;"	m	struct:QueueDefinition	file:
-pcMessage	Demo/PIC24_MPLAB/lcd.h	/^	char *pcMessage;$/;"	m	struct:__anon7
-pcMessage	Demo/dsPIC33E_MPLAB/lcd.h	/^	char *pcMessage;$/;"	m	struct:__anon9
-pcMessage	Demo/dsPIC33F_MPLAB/lcd.h	/^	char *pcMessage;$/;"	m	struct:__anon8
+pcMessage	Demo/dsPIC33E_MPLAB/lcd.h	/^	char *pcMessage;$/;"	m	struct:__anon7
 pcMessageToExchange	Demo/Common/Full/comtest.c	/^const char * const pcMessageToExchange = 	"Send this message over and over again to check communications interrupts. "$/;"	v
 pcName	Source/include/task.h	/^	const char * const pcName;	\/*lint !e971 Unqualified char types are allowed for strings and single characters only. *\/$/;"	m	struct:xTASK_PARAMETERS
 pcPollingSemaphoreTaskError	Demo/Common/Full/semtest.c	/^const char * const pcPollingSemaphoreTaskError = "Guarded shared variable in unexpected state.\\r\\n";$/;"	v
@@ -888,9 +780,7 @@ prvAutoReloadTimerCallback	Demo/Common/Minimal/TimerDemo.c	/^static void prvAuto
 prvBasicDelayTests	Demo/Common/Minimal/blocktim.c	/^static void prvBasicDelayTests( void )$/;"	f	file:
 prvBitCombinationTestMasterFunction	Demo/Common/Minimal/EventGroupsDemo.c	/^static BaseType_t prvBitCombinationTestMasterFunction( BaseType_t xError, TaskHandle_t xTestSlaveTaskHandle )$/;"	f	file:
 prvBlockingTask	Demo/Common/Minimal/AbortDelay.c	/^static void prvBlockingTask( void *pvParameters )$/;"	f	file:
-prvCalculateAndStoreJitter	Demo/PIC24_MPLAB/timertest.c	/^static void prvCalculateAndStoreJitter( void )$/;"	f	file:
 prvCalculateAndStoreJitter	Demo/dsPIC33E_MPLAB/timertest.c	/^static void prvCalculateAndStoreJitter( void )$/;"	f	file:
-prvCalculateAndStoreJitter	Demo/dsPIC33F_MPLAB/timertest.c	/^static void prvCalculateAndStoreJitter( void )$/;"	f	file:
 prvChangePriorityHelperTask	Demo/Common/Full/dynamic.c	/^static void prvChangePriorityHelperTask( void *pvParameters )$/;"	f	file:
 prvChangePriorityWhenSuspendedTask	Demo/Common/Full/dynamic.c	/^static void prvChangePriorityWhenSuspendedTask( void *pvParameters )$/;"	f	file:
 prvChangeRelativePriorities	Demo/Common/Minimal/QueueSet.c	/^static void prvChangeRelativePriorities( void )$/;"	f	file:
@@ -946,19 +836,11 @@ prvInsertBlockIntoFreeList	Source/portable/MemMang/heap_5.c	/^static void prvIns
 prvInsertTimerInActiveList	Source/timers.c	/^static BaseType_t prvInsertTimerInActiveList( Timer_t * const pxTimer, const TickType_t xNextExpiryTime, const TickType_t xTimeNow, const TickType_t xCommandTime )$/;"	f	file:
 prvIsQueueEmpty	Source/queue.c	/^static BaseType_t prvIsQueueEmpty( const Queue_t *pxQueue )$/;"	f	file:
 prvIsQueueFull	Source/queue.c	/^static BaseType_t prvIsQueueFull( const Queue_t *pxQueue )$/;"	f	file:
-prvLCDClear	Demo/PIC24_MPLAB/lcd.c	/^static void prvLCDClear( void )$/;"	f	file:
 prvLCDClear	Demo/dsPIC33E_MPLAB/lcd.c	/^static void prvLCDClear( void )$/;"	f	file:
-prvLCDClear	Demo/dsPIC33F_MPLAB/lcd.c	/^static void prvLCDClear( void )$/;"	f	file:
 prvLCDCommand	Demo/dsPIC33E_MPLAB/lcd.c	/^static void prvLCDCommand( char cCommand )$/;"	f	file:
-prvLCDCommand	Demo/dsPIC33F_MPLAB/lcd.c	/^static void prvLCDCommand( char cCommand )$/;"	f	file:
 prvLCDData	Demo/dsPIC33E_MPLAB/lcd.c	/^static void prvLCDData( char cChar )$/;"	f	file:
-prvLCDData	Demo/dsPIC33F_MPLAB/lcd.c	/^static void prvLCDData( char cChar )$/;"	f	file:
-prvLCDGotoRow	Demo/PIC24_MPLAB/lcd.c	/^static void prvLCDGotoRow( unsigned short usRow )$/;"	f	file:
 prvLCDGotoRow	Demo/dsPIC33E_MPLAB/lcd.c	/^static void prvLCDGotoRow( unsigned short usRow )$/;"	f	file:
-prvLCDGotoRow	Demo/dsPIC33F_MPLAB/lcd.c	/^static void prvLCDGotoRow( unsigned short usRow )$/;"	f	file:
-prvLCDPutString	Demo/PIC24_MPLAB/lcd.c	/^static void prvLCDPutString( char *pcString )$/;"	f	file:
 prvLCDPutString	Demo/dsPIC33E_MPLAB/lcd.c	/^static void prvLCDPutString( char *pcString )$/;"	f	file:
-prvLCDPutString	Demo/dsPIC33F_MPLAB/lcd.c	/^static void prvLCDPutString( char *pcString )$/;"	f	file:
 prvLEDTimerCallback	Demo/Common/Minimal/flash_timer.c	/^static void prvLEDTimerCallback( TimerHandle_t xTimer )$/;"	f	file:
 prvListTasksWithinSingleList	Source/tasks.c	/^	static UBaseType_t prvListTasksWithinSingleList( TaskStatus_t *pxTaskStatusArray, List_t *pxList, eTaskState eState )$/;"	f	file:
 prvLockQueue	Source/queue.c	264;"	d	file:
@@ -1005,12 +887,8 @@ prvSelectiveBitsTestSlaveFunction	Demo/Common/Minimal/EventGroupsDemo.c	/^static
 prvSemaphoreTest	Demo/Common/Full/semtest.c	/^static void prvSemaphoreTest( void *pvParameters )$/;"	f	file:
 prvSendFrontAndBackTest	Demo/Common/Minimal/GenQTest.c	/^static void prvSendFrontAndBackTest( void *pvParameters )$/;"	f	file:
 prvSendToQueueInSetFromISR	Demo/Common/Minimal/QueueSet.c	/^static void prvSendToQueueInSetFromISR( void )$/;"	f	file:
-prvSetupHardware	Demo/PIC24_MPLAB/main.c	/^static void prvSetupHardware( void )$/;"	f	file:
 prvSetupHardware	Demo/dsPIC33E_MPLAB/main.c	/^static void prvSetupHardware( void )$/;"	f	file:
-prvSetupHardware	Demo/dsPIC33F_MPLAB/main.c	/^static void prvSetupHardware( void )$/;"	f	file:
-prvSetupLCD	Demo/PIC24_MPLAB/lcd.c	/^static void prvSetupLCD( void )$/;"	f	file:
 prvSetupLCD	Demo/dsPIC33E_MPLAB/lcd.c	/^static void prvSetupLCD( void )$/;"	f	file:
-prvSetupLCD	Demo/dsPIC33F_MPLAB/lcd.c	/^static void prvSetupLCD( void )$/;"	f	file:
 prvSetupTest	Demo/Common/Minimal/QueueSet.c	/^static void prvSetupTest( void )$/;"	f	file:
 prvSingleTaskTests	Demo/Common/Minimal/TaskNotify.c	/^static void prvSingleTaskTests( void )$/;"	f	file:
 prvStaticallyAllocatedCreator	Demo/Common/Minimal/StaticAllocation.c	/^static void prvStaticallyAllocatedCreator( void *pvParameters )$/;"	f	file:
@@ -1046,12 +924,8 @@ prvUnlockQueue	Source/queue.c	/^static void prvUnlockQueue( Queue_t * const pxQu
 prvWriteNameToBuffer	Source/tasks.c	/^	static char *prvWriteNameToBuffer( char *pcBuffer, const char *pcTaskName )$/;"	f	file:
 psCheckVariable	Demo/Common/Full/BlockQ.c	/^	volatile short *psCheckVariable;	\/*< Incremented on each successful cycle to check the task is still running. *\/$/;"	m	struct:BLOCKING_QUEUE_PARAMETERS	file:
 psCheckVariable	Demo/Common/Minimal/BlockQ.c	/^	volatile short *psCheckVariable;	\/*< Incremented on each successful cycle to check the task is still running. *\/$/;"	m	struct:BLOCKING_QUEUE_PARAMETERS	file:
-ptALL_OFF	Demo/PIC24_MPLAB/ParTest/ParTest.c	77;"	d	file:
 ptALL_OFF	Demo/dsPIC33E_MPLAB/ParTest/ParTest.c	77;"	d	file:
-ptALL_OFF	Demo/dsPIC33F_MPLAB/ParTest/ParTest.c	77;"	d	file:
-ptOUTPUT	Demo/PIC24_MPLAB/ParTest/ParTest.c	76;"	d	file:
 ptOUTPUT	Demo/dsPIC33E_MPLAB/ParTest/ParTest.c	76;"	d	file:
-ptOUTPUT	Demo/dsPIC33F_MPLAB/ParTest/ParTest.c	76;"	d	file:
 pucStartAddress	Source/include/portable.h	/^	uint8_t *pucStartAddress;$/;"	m	struct:HeapRegion
 pulSharedVariable	Demo/Common/Full/semtest.c	/^	volatile unsigned long *pulSharedVariable;$/;"	m	struct:SEMAPHORE_PARAMETERS	file:
 pulSharedVariable	Demo/Common/Minimal/semtest.c	/^	volatile uint32_t *pulSharedVariable;$/;"	m	struct:SEMAPHORE_PARAMETERS	file:
@@ -1193,102 +1067,62 @@ semtstNUM_TASKS	Demo/Common/Full/semtest.c	133;"	d	file:
 semtstNUM_TASKS	Demo/Common/Minimal/semtest.c	110;"	d	file:
 semtstSTACK_SIZE	Demo/Common/Full/semtest.c	131;"	d	file:
 semtstSTACK_SIZE	Demo/Common/Minimal/semtest.c	108;"	d	file:
-ser110	Demo/Common/include/serial.h	/^	ser110,		$/;"	e	enum:__anon14
-ser115200	Demo/Common/include/serial.h	/^	ser115200$/;"	e	enum:__anon14
-ser1200	Demo/Common/include/serial.h	/^	ser1200,	$/;"	e	enum:__anon14
-ser134	Demo/Common/include/serial.h	/^	ser134,		$/;"	e	enum:__anon14
-ser150	Demo/Common/include/serial.h	/^	ser150,    $/;"	e	enum:__anon14
-ser1800	Demo/Common/include/serial.h	/^	ser1800,	$/;"	e	enum:__anon14
-ser19200	Demo/Common/include/serial.h	/^	ser19200,	$/;"	e	enum:__anon14
-ser200	Demo/Common/include/serial.h	/^	ser200,$/;"	e	enum:__anon14
-ser2400	Demo/Common/include/serial.h	/^	ser2400,   $/;"	e	enum:__anon14
-ser300	Demo/Common/include/serial.h	/^	ser300,		$/;"	e	enum:__anon14
-ser38400	Demo/Common/include/serial.h	/^	ser38400,	$/;"	e	enum:__anon14
-ser4800	Demo/Common/include/serial.h	/^	ser4800,$/;"	e	enum:__anon14
-ser50	Demo/Common/include/serial.h	/^	ser50,		$/;"	e	enum:__anon14
-ser57600	Demo/Common/include/serial.h	/^	ser57600,	$/;"	e	enum:__anon14
-ser600	Demo/Common/include/serial.h	/^	ser600,		$/;"	e	enum:__anon14
-ser75	Demo/Common/include/serial.h	/^	ser75,		$/;"	e	enum:__anon14
-ser9600	Demo/Common/include/serial.h	/^	ser9600,		$/;"	e	enum:__anon14
-serAUTO_BAUD_OFF	Demo/PIC24_MPLAB/serial/serial.c	95;"	d	file:
+ser110	Demo/Common/include/serial.h	/^	ser110,		$/;"	e	enum:__anon12
+ser115200	Demo/Common/include/serial.h	/^	ser115200$/;"	e	enum:__anon12
+ser1200	Demo/Common/include/serial.h	/^	ser1200,	$/;"	e	enum:__anon12
+ser134	Demo/Common/include/serial.h	/^	ser134,		$/;"	e	enum:__anon12
+ser150	Demo/Common/include/serial.h	/^	ser150,    $/;"	e	enum:__anon12
+ser1800	Demo/Common/include/serial.h	/^	ser1800,	$/;"	e	enum:__anon12
+ser19200	Demo/Common/include/serial.h	/^	ser19200,	$/;"	e	enum:__anon12
+ser200	Demo/Common/include/serial.h	/^	ser200,$/;"	e	enum:__anon12
+ser2400	Demo/Common/include/serial.h	/^	ser2400,   $/;"	e	enum:__anon12
+ser300	Demo/Common/include/serial.h	/^	ser300,		$/;"	e	enum:__anon12
+ser38400	Demo/Common/include/serial.h	/^	ser38400,	$/;"	e	enum:__anon12
+ser4800	Demo/Common/include/serial.h	/^	ser4800,$/;"	e	enum:__anon12
+ser50	Demo/Common/include/serial.h	/^	ser50,		$/;"	e	enum:__anon12
+ser57600	Demo/Common/include/serial.h	/^	ser57600,	$/;"	e	enum:__anon12
+ser600	Demo/Common/include/serial.h	/^	ser600,		$/;"	e	enum:__anon12
+ser75	Demo/Common/include/serial.h	/^	ser75,		$/;"	e	enum:__anon12
+ser9600	Demo/Common/include/serial.h	/^	ser9600,		$/;"	e	enum:__anon12
 serAUTO_BAUD_OFF	Demo/dsPIC33E_MPLAB/serial/serial.c	95;"	d	file:
-serAUTO_BAUD_OFF	Demo/dsPIC33F_MPLAB/serial/serial.c	95;"	d	file:
-serBITS_5	Demo/Common/include/serial.h	/^	serBITS_5, $/;"	e	enum:__anon13
-serBITS_6	Demo/Common/include/serial.h	/^	serBITS_6, $/;"	e	enum:__anon13
-serBITS_7	Demo/Common/include/serial.h	/^	serBITS_7, $/;"	e	enum:__anon13
-serBITS_8	Demo/Common/include/serial.h	/^	serBITS_8 $/;"	e	enum:__anon13
-serCLEAR_FLAG	Demo/PIC24_MPLAB/serial/serial.c	107;"	d	file:
+serBITS_5	Demo/Common/include/serial.h	/^	serBITS_5, $/;"	e	enum:__anon11
+serBITS_6	Demo/Common/include/serial.h	/^	serBITS_6, $/;"	e	enum:__anon11
+serBITS_7	Demo/Common/include/serial.h	/^	serBITS_7, $/;"	e	enum:__anon11
+serBITS_8	Demo/Common/include/serial.h	/^	serBITS_8 $/;"	e	enum:__anon11
 serCLEAR_FLAG	Demo/dsPIC33E_MPLAB/serial/serial.c	107;"	d	file:
-serCLEAR_FLAG	Demo/dsPIC33F_MPLAB/serial/serial.c	107;"	d	file:
-serCOM1	Demo/Common/include/serial.h	/^	serCOM1, $/;"	e	enum:__anon10
-serCOM2	Demo/Common/include/serial.h	/^	serCOM2, $/;"	e	enum:__anon10
-serCOM3	Demo/Common/include/serial.h	/^	serCOM3, $/;"	e	enum:__anon10
-serCOM4	Demo/Common/include/serial.h	/^	serCOM4, $/;"	e	enum:__anon10
-serCOM5	Demo/Common/include/serial.h	/^	serCOM5, $/;"	e	enum:__anon10
-serCOM6	Demo/Common/include/serial.h	/^	serCOM6, $/;"	e	enum:__anon10
-serCOM7	Demo/Common/include/serial.h	/^	serCOM7, $/;"	e	enum:__anon10
-serCOM8	Demo/Common/include/serial.h	/^	serCOM8 $/;"	e	enum:__anon10
-serCONTINUE_IN_IDLE_MODE	Demo/PIC24_MPLAB/serial/serial.c	101;"	d	file:
+serCOM1	Demo/Common/include/serial.h	/^	serCOM1, $/;"	e	enum:__anon8
+serCOM2	Demo/Common/include/serial.h	/^	serCOM2, $/;"	e	enum:__anon8
+serCOM3	Demo/Common/include/serial.h	/^	serCOM3, $/;"	e	enum:__anon8
+serCOM4	Demo/Common/include/serial.h	/^	serCOM4, $/;"	e	enum:__anon8
+serCOM5	Demo/Common/include/serial.h	/^	serCOM5, $/;"	e	enum:__anon8
+serCOM6	Demo/Common/include/serial.h	/^	serCOM6, $/;"	e	enum:__anon8
+serCOM7	Demo/Common/include/serial.h	/^	serCOM7, $/;"	e	enum:__anon8
+serCOM8	Demo/Common/include/serial.h	/^	serCOM8 $/;"	e	enum:__anon8
 serCONTINUE_IN_IDLE_MODE	Demo/dsPIC33E_MPLAB/serial/serial.c	101;"	d	file:
-serCONTINUE_IN_IDLE_MODE	Demo/dsPIC33F_MPLAB/serial/serial.c	101;"	d	file:
-serEIGHT_DATA_BITS_NO_PARITY	Demo/PIC24_MPLAB/serial/serial.c	93;"	d	file:
 serEIGHT_DATA_BITS_NO_PARITY	Demo/dsPIC33E_MPLAB/serial/serial.c	93;"	d	file:
-serEIGHT_DATA_BITS_NO_PARITY	Demo/dsPIC33F_MPLAB/serial/serial.c	93;"	d	file:
-serEVEN_PARITY	Demo/Common/include/serial.h	/^	serEVEN_PARITY, $/;"	e	enum:__anon11
-serINPUT	Demo/PIC24_MPLAB/serial/serial.c	90;"	d	file:
+serEVEN_PARITY	Demo/Common/include/serial.h	/^	serEVEN_PARITY, $/;"	e	enum:__anon9
 serINPUT	Demo/dsPIC33E_MPLAB/serial/serial.c	90;"	d	file:
-serINPUT	Demo/dsPIC33F_MPLAB/serial/serial.c	90;"	d	file:
-serINTERRUPT_DISABLE	Demo/PIC24_MPLAB/serial/serial.c	106;"	d	file:
 serINTERRUPT_DISABLE	Demo/dsPIC33E_MPLAB/serial/serial.c	106;"	d	file:
-serINTERRUPT_DISABLE	Demo/dsPIC33F_MPLAB/serial/serial.c	106;"	d	file:
-serINTERRUPT_ENABLE	Demo/PIC24_MPLAB/serial/serial.c	105;"	d	file:
 serINTERRUPT_ENABLE	Demo/dsPIC33E_MPLAB/serial/serial.c	105;"	d	file:
-serINTERRUPT_ENABLE	Demo/dsPIC33F_MPLAB/serial/serial.c	105;"	d	file:
-serINTERRUPT_ON_SINGLE_CHAR	Demo/PIC24_MPLAB/serial/serial.c	103;"	d	file:
 serINTERRUPT_ON_SINGLE_CHAR	Demo/dsPIC33E_MPLAB/serial/serial.c	103;"	d	file:
-serINTERRUPT_ON_SINGLE_CHAR	Demo/dsPIC33F_MPLAB/serial/serial.c	103;"	d	file:
-serLOOPBACK_OFF	Demo/PIC24_MPLAB/serial/serial.c	96;"	d	file:
 serLOOPBACK_OFF	Demo/dsPIC33E_MPLAB/serial/serial.c	96;"	d	file:
-serLOOPBACK_OFF	Demo/dsPIC33F_MPLAB/serial/serial.c	96;"	d	file:
-serLOW_SPEED	Demo/PIC24_MPLAB/serial/serial.c	91;"	d	file:
 serLOW_SPEED	Demo/dsPIC33E_MPLAB/serial/serial.c	91;"	d	file:
-serLOW_SPEED	Demo/dsPIC33F_MPLAB/serial/serial.c	91;"	d	file:
-serMARK_PARITY	Demo/Common/include/serial.h	/^	serMARK_PARITY, $/;"	e	enum:__anon11
-serNORMAL_IDLE_STATE	Demo/PIC24_MPLAB/serial/serial.c	94;"	d	file:
+serMARK_PARITY	Demo/Common/include/serial.h	/^	serMARK_PARITY, $/;"	e	enum:__anon9
 serNORMAL_IDLE_STATE	Demo/dsPIC33E_MPLAB/serial/serial.c	94;"	d	file:
-serNORMAL_IDLE_STATE	Demo/dsPIC33F_MPLAB/serial/serial.c	94;"	d	file:
-serNO_HARDWARE_FLOW_CONTROL	Demo/PIC24_MPLAB/serial/serial.c	98;"	d	file:
 serNO_HARDWARE_FLOW_CONTROL	Demo/dsPIC33E_MPLAB/serial/serial.c	98;"	d	file:
-serNO_HARDWARE_FLOW_CONTROL	Demo/dsPIC33F_MPLAB/serial/serial.c	98;"	d	file:
-serNO_IRDA	Demo/PIC24_MPLAB/serial/serial.c	100;"	d	file:
 serNO_IRDA	Demo/dsPIC33E_MPLAB/serial/serial.c	100;"	d	file:
-serNO_IRDA	Demo/dsPIC33F_MPLAB/serial/serial.c	100;"	d	file:
-serNO_PARITY	Demo/Common/include/serial.h	/^	serNO_PARITY, $/;"	e	enum:__anon11
-serODD_PARITY	Demo/Common/include/serial.h	/^	serODD_PARITY, $/;"	e	enum:__anon11
-serONE_STOP_BIT	Demo/PIC24_MPLAB/serial/serial.c	92;"	d	file:
+serNO_PARITY	Demo/Common/include/serial.h	/^	serNO_PARITY, $/;"	e	enum:__anon9
+serODD_PARITY	Demo/Common/include/serial.h	/^	serODD_PARITY, $/;"	e	enum:__anon9
 serONE_STOP_BIT	Demo/dsPIC33E_MPLAB/serial/serial.c	92;"	d	file:
-serONE_STOP_BIT	Demo/dsPIC33F_MPLAB/serial/serial.c	92;"	d	file:
-serOUTPUT	Demo/PIC24_MPLAB/serial/serial.c	89;"	d	file:
 serOUTPUT	Demo/dsPIC33E_MPLAB/serial/serial.c	89;"	d	file:
-serOUTPUT	Demo/dsPIC33F_MPLAB/serial/serial.c	89;"	d	file:
-serSET_FLAG	Demo/PIC24_MPLAB/serial/serial.c	108;"	d	file:
 serSET_FLAG	Demo/dsPIC33E_MPLAB/serial/serial.c	108;"	d	file:
-serSET_FLAG	Demo/dsPIC33F_MPLAB/serial/serial.c	108;"	d	file:
-serSPACE_PARITY	Demo/Common/include/serial.h	/^	serSPACE_PARITY $/;"	e	enum:__anon11
-serSTANDARD_IO	Demo/PIC24_MPLAB/serial/serial.c	99;"	d	file:
+serSPACE_PARITY	Demo/Common/include/serial.h	/^	serSPACE_PARITY $/;"	e	enum:__anon9
 serSTANDARD_IO	Demo/dsPIC33E_MPLAB/serial/serial.c	99;"	d	file:
-serSTANDARD_IO	Demo/dsPIC33F_MPLAB/serial/serial.c	99;"	d	file:
-serSTOP_1	Demo/Common/include/serial.h	/^	serSTOP_1, $/;"	e	enum:__anon12
-serSTOP_2	Demo/Common/include/serial.h	/^	serSTOP_2 $/;"	e	enum:__anon12
-serTX_ENABLE	Demo/PIC24_MPLAB/serial/serial.c	104;"	d	file:
+serSTOP_1	Demo/Common/include/serial.h	/^	serSTOP_1, $/;"	e	enum:__anon10
+serSTOP_2	Demo/Common/include/serial.h	/^	serSTOP_2 $/;"	e	enum:__anon10
 serTX_ENABLE	Demo/dsPIC33E_MPLAB/serial/serial.c	104;"	d	file:
-serTX_ENABLE	Demo/dsPIC33F_MPLAB/serial/serial.c	104;"	d	file:
-serUART_ENABLED	Demo/PIC24_MPLAB/serial/serial.c	102;"	d	file:
 serUART_ENABLED	Demo/dsPIC33E_MPLAB/serial/serial.c	102;"	d	file:
-serUART_ENABLED	Demo/dsPIC33F_MPLAB/serial/serial.c	102;"	d	file:
-serWAKE_UP_DISABLE	Demo/PIC24_MPLAB/serial/serial.c	97;"	d	file:
 serWAKE_UP_DISABLE	Demo/dsPIC33E_MPLAB/serial/serial.c	97;"	d	file:
-serWAKE_UP_DISABLE	Demo/dsPIC33F_MPLAB/serial/serial.c	97;"	d	file:
 setpollDONT_BLOCK	Demo/Common/Minimal/QueueSetPolling.c	100;"	d	file:
 setpollQUEUE_LENGTH	Demo/Common/Minimal/QueueSetPolling.c	97;"	d	file:
 static	Source/croutine.c	82;"	d	file:
@@ -1328,16 +1162,12 @@ taskWAITING_NOTIFICATION	Source/tasks.c	111;"	d	file:
 taskYIELD	Source/include/task.h	203;"	d
 taskYIELD_IF_USING_PREEMPTION	Source/tasks.c	104;"	d	file:
 taskYIELD_IF_USING_PREEMPTION	Source/tasks.c	106;"	d	file:
-timerMAX_COUNT	Demo/PIC24_MPLAB/timertest.c	83;"	d	file:
 timerMAX_COUNT	Demo/dsPIC33E_MPLAB/timertest.c	83;"	d	file:
-timerMAX_COUNT	Demo/dsPIC33F_MPLAB/timertest.c	83;"	d	file:
 timerNORMALLY_EMPTY_RX	Demo/Common/Minimal/IntQueue.c	173;"	d	file:
 timerNORMALLY_EMPTY_TX	Demo/Common/Minimal/IntQueue.c	139;"	d	file:
 timerNORMALLY_FULL_RX	Demo/Common/Minimal/IntQueue.c	185;"	d	file:
 timerNORMALLY_FULL_TX	Demo/Common/Minimal/IntQueue.c	156;"	d	file:
-timerSETTLE_TIME	Demo/PIC24_MPLAB/timertest.c	80;"	d	file:
 timerSETTLE_TIME	Demo/dsPIC33E_MPLAB/timertest.c	80;"	d	file:
-timerSETTLE_TIME	Demo/dsPIC33F_MPLAB/timertest.c	80;"	d	file:
 tmrCOMMAND_CHANGE_PERIOD	Source/include/timers.h	102;"	d
 tmrCOMMAND_CHANGE_PERIOD_FROM_ISR	Source/include/timers.h	109;"	d
 tmrCOMMAND_DELETE	Source/include/timers.h	103;"	d
@@ -1514,9 +1344,7 @@ ulTotalRunTime	Source/tasks.c	/^	PRIVILEGED_DATA static uint32_t ulTotalRunTime 
 usCheckVariable	Demo/Common/Full/dynamic.c	/^static unsigned short usCheckVariable = ( unsigned short ) 0;$/;"	v	file:
 usCheckVariable	Demo/Common/Minimal/dynamic.c	/^static volatile uint16_t usCheckVariable = ( uint16_t ) 0;$/;"	v	file:
 usCreationCount	Demo/Common/Minimal/death.c	/^static volatile uint16_t usCreationCount = 0;$/;"	v	file:
-usMaxJitter	Demo/PIC24_MPLAB/timertest.c	/^unsigned short usMaxJitter = 0;$/;"	v
 usMaxJitter	Demo/dsPIC33E_MPLAB/timertest.c	/^unsigned short usMaxJitter = 0;$/;"	v
-usMaxJitter	Demo/dsPIC33F_MPLAB/timertest.c	/^unsigned short usMaxJitter = 0;$/;"	v
 usStackDepth	Source/include/task.h	/^	uint16_t usStackDepth;$/;"	m	struct:xTASK_PARAMETERS
 usStackHighWaterMark	Source/include/task.h	/^	uint16_t usStackHighWaterMark;	\/* The minimum amount of stack space that has remained for the task since the task was created.  The closer this value is to zero the closer the task has come to overflowing its stack. *\/$/;"	m	struct:xTASK_STATUS
 usTaskCheck	Demo/Common/Full/flop.c	/^static volatile unsigned short usTaskCheck[ mathNUMBER_OF_TASKS ] = { ( unsigned short ) 0 };$/;"	v	file:
@@ -1574,7 +1402,6 @@ uxNextRand	Demo/Common/Minimal/TaskNotify.c	/^static size_t uxNextRand = 0;$/;"	
 uxNumberOfItems	Source/include/list.h	/^	configLIST_VOLATILE UBaseType_t uxNumberOfItems;$/;"	m	struct:xLIST
 uxNumberToPost	Demo/Common/Minimal/crhook.c	/^static UBaseType_t uxCallCounter = 0, uxNumberToPost = 0;$/;"	v	file:
 uxOutput	Demo/dsPIC33E_MPLAB/ParTest/ParTest.c	/^unsigned portBASE_TYPE uxOutput;$/;"	v
-uxOutput	Demo/dsPIC33F_MPLAB/ParTest/ParTest.c	/^unsigned portBASE_TYPE uxOutput;$/;"	v
 uxPendedTicks	Source/tasks.c	/^PRIVILEGED_DATA static volatile UBaseType_t uxPendedTicks 			= ( UBaseType_t ) 0U;$/;"	v	file:
 uxPollingCycles	Demo/Common/Minimal/recmutex.c	/^static volatile UBaseType_t uxControllingCycles = 0, uxBlockingCycles = 0, uxPollingCycles = 0;$/;"	v	file:
 uxPriority	Source/include/croutine.h	/^	UBaseType_t 		uxPriority;			\/*< The priority of the co-routine in relation to other co-routines. *\/$/;"	m	struct:corCoRoutineControlBlock
@@ -1616,17 +1443,12 @@ uxTopReadyPriority	Source/tasks.c	/^PRIVILEGED_DATA static volatile UBaseType_t 
 uxValueForNormallyEmptyQueue	Demo/Common/Minimal/IntQueue.c	/^static volatile UBaseType_t uxValueForNormallyEmptyQueue = 0, uxValueForNormallyFullQueue = 0;$/;"	v	file:
 uxValueForNormallyFullQueue	Demo/Common/Minimal/IntQueue.c	/^static volatile UBaseType_t uxValueForNormallyEmptyQueue = 0, uxValueForNormallyFullQueue = 0;$/;"	v	file:
 vAltStartComTestTasks	Demo/Common/Minimal/comtest.c	/^void vAltStartComTestTasks( UBaseType_t uxPriority, uint32_t ulBaudRate, UBaseType_t uxLED )$/;"	f
-vApplicationIdleHook	Demo/PIC24_MPLAB/main.c	/^void vApplicationIdleHook( void )$/;"	f
 vApplicationIdleHook	Demo/dsPIC33E_MPLAB/main.c	/^void vApplicationIdleHook( void )$/;"	f
-vApplicationIdleHook	Demo/dsPIC33F_MPLAB/main.c	/^void vApplicationIdleHook( void )$/;"	f
 vApplicationSetupTickTimerInterrupt	Source/portable/MPLAB/PIC24_dsPIC/port.c	/^__attribute__(( weak )) void vApplicationSetupTickTimerInterrupt( void )$/;"	f
-vApplicationStackOverflowHook	Demo/PIC24_MPLAB/main.c	/^void vApplicationStackOverflowHook( TaskHandle_t pxTask, char *pcTaskName )$/;"	f
 vApplicationTickHook	Demo/Common/Minimal/crhook.c	/^void vApplicationTickHook( void )$/;"	f
 vBlockingQueueConsumer	Demo/Common/Full/BlockQ.c	/^static void vBlockingQueueConsumer( void *pvParameters )$/;"	f	file:
 vBlockingQueueProducer	Demo/Common/Full/BlockQ.c	/^static void vBlockingQueueProducer( void *pvParameters )$/;"	f	file:
-vCheckTask	Demo/PIC24_MPLAB/main.c	/^static void vCheckTask( void *pvParameters )$/;"	f	file:
 vCheckTask	Demo/dsPIC33E_MPLAB/main.c	/^static void vCheckTask( void *pvParameters )$/;"	f	file:
-vCheckTask	Demo/dsPIC33F_MPLAB/main.c	/^static void vCheckTask( void *pvParameters )$/;"	f	file:
 vCoRoutineAddToDelayedList	Source/croutine.c	/^void vCoRoutineAddToDelayedList( TickType_t xTicksToDelay, List_t *pxEventList )$/;"	f
 vCoRoutineSchedule	Source/croutine.c	/^void vCoRoutineSchedule( void )$/;"	f
 vComRxTask	Demo/Common/Full/comtest.c	/^static void vComRxTask( void *pvParameters )$/;"	f	file:
@@ -1656,24 +1478,16 @@ vInterruptCountingSemaphoreTask	Demo/Common/Minimal/IntSemTest.c	/^static void v
 vInterruptMutexMasterTask	Demo/Common/Minimal/IntSemTest.c	/^static void vInterruptMutexMasterTask( void *pvParameters )$/;"	f	file:
 vInterruptMutexSlaveTask	Demo/Common/Minimal/IntSemTest.c	/^static void vInterruptMutexSlaveTask( void *pvParameters )$/;"	f	file:
 vInterruptSemaphorePeriodicTest	Demo/Common/Minimal/IntSemTest.c	/^void vInterruptSemaphorePeriodicTest( void )$/;"	f
-vLCDTask	Demo/PIC24_MPLAB/lcd.c	/^static void vLCDTask( void *pvParameters )$/;"	f	file:
 vLCDTask	Demo/dsPIC33E_MPLAB/lcd.c	/^static void vLCDTask( void *pvParameters )$/;"	f	file:
-vLCDTask	Demo/dsPIC33F_MPLAB/lcd.c	/^static void vLCDTask( void *pvParameters )$/;"	f	file:
 vLEDFlashTask	Demo/Common/Full/flash.c	/^static void vLEDFlashTask( void *pvParameters )$/;"	f	file:
 vLimitedIncrementTask	Demo/Common/Full/dynamic.c	/^static void vLimitedIncrementTask( void * pvParameters )$/;"	f	file:
 vListInitialise	Source/list.c	/^void vListInitialise( List_t * const pxList )$/;"	f
 vListInitialiseItem	Source/list.c	/^void vListInitialiseItem( ListItem_t * const pxItem )$/;"	f
 vListInsert	Source/list.c	/^void vListInsert( List_t * const pxList, ListItem_t * const pxNewListItem )$/;"	f
 vListInsertEnd	Source/list.c	/^void vListInsertEnd( List_t * const pxList, ListItem_t * const pxNewListItem )$/;"	f
-vParTestInitialise	Demo/PIC24_MPLAB/ParTest/ParTest.c	/^void vParTestInitialise( void )$/;"	f
 vParTestInitialise	Demo/dsPIC33E_MPLAB/ParTest/ParTest.c	/^void vParTestInitialise( void )$/;"	f
-vParTestInitialise	Demo/dsPIC33F_MPLAB/ParTest/ParTest.c	/^void vParTestInitialise( void )$/;"	f
-vParTestSetLED	Demo/PIC24_MPLAB/ParTest/ParTest.c	/^void vParTestSetLED( unsigned portBASE_TYPE uxLED, signed portBASE_TYPE xValue )$/;"	f
 vParTestSetLED	Demo/dsPIC33E_MPLAB/ParTest/ParTest.c	/^void vParTestSetLED( unsigned portBASE_TYPE uxLED, signed portBASE_TYPE xValue )$/;"	f
-vParTestSetLED	Demo/dsPIC33F_MPLAB/ParTest/ParTest.c	/^void vParTestSetLED( unsigned portBASE_TYPE uxLED, signed portBASE_TYPE xValue )$/;"	f
-vParTestToggleLED	Demo/PIC24_MPLAB/ParTest/ParTest.c	/^void vParTestToggleLED( unsigned portBASE_TYPE uxLED )$/;"	f
 vParTestToggleLED	Demo/dsPIC33E_MPLAB/ParTest/ParTest.c	/^void vParTestToggleLED( unsigned portBASE_TYPE uxLED )$/;"	f
-vParTestToggleLED	Demo/dsPIC33F_MPLAB/ParTest/ParTest.c	/^void vParTestToggleLED( unsigned portBASE_TYPE uxLED )$/;"	f
 vPeriodicEventGroupsProcessing	Demo/Common/Minimal/EventGroupsDemo.c	/^void vPeriodicEventGroupsProcessing( void )$/;"	f
 vPolledQueueConsumer	Demo/Common/Full/PollQ.c	/^static void vPolledQueueConsumer( void *pvParameters )$/;"	f	file:
 vPolledQueueProducer	Demo/Common/Full/PollQ.c	/^static void vPolledQueueProducer( void *pvParameters )$/;"	f	file:
@@ -1711,12 +1525,8 @@ vSecondaryBlockTimeTestTask	Demo/Common/Minimal/blocktim.c	/^static void vSecond
 vSemTestTask	Demo/Common/Full/comtest.c	/^static void vSemTestTask( void * pvParameters )$/;"	f	file:
 vSemaphoreCreateBinary	Source/include/semphr.h	136;"	d
 vSemaphoreDelete	Source/include/semphr.h	1140;"	d
-vSerialClose	Demo/PIC24_MPLAB/serial/serial.c	/^void vSerialClose( xComPortHandle xPort )$/;"	f
 vSerialClose	Demo/dsPIC33E_MPLAB/serial/serial.c	/^void vSerialClose( xComPortHandle xPort )$/;"	f
-vSerialClose	Demo/dsPIC33F_MPLAB/serial/serial.c	/^void vSerialClose( xComPortHandle xPort )$/;"	f
-vSetupTimerTest	Demo/PIC24_MPLAB/timertest.c	/^void vSetupTimerTest( unsigned short usFrequencyHz )$/;"	f
 vSetupTimerTest	Demo/dsPIC33E_MPLAB/timertest.c	/^void vSetupTimerTest( unsigned short usFrequencyHz )$/;"	f
-vSetupTimerTest	Demo/dsPIC33F_MPLAB/timertest.c	/^void vSetupTimerTest( unsigned short usFrequencyHz )$/;"	f
 vStartBlockingQueueTasks	Demo/Common/Full/BlockQ.c	/^void vStartBlockingQueueTasks( unsigned portBASE_TYPE uxPriority )$/;"	f
 vStartBlockingQueueTasks	Demo/Common/Minimal/BlockQ.c	/^void vStartBlockingQueueTasks( UBaseType_t uxPriority )$/;"	f
 vStartComTestStringsTasks	Demo/Common/Minimal/comtest_strings.c	/^void vStartComTestStringsTasks( UBaseType_t uxPriority, uint32_t ulBaudRate, UBaseType_t uxLED )$/;"	f
@@ -1851,9 +1661,7 @@ xBlockingQueueParameters	Demo/Common/Minimal/BlockQ.c	/^} xBlockingQueueParamete
 xBlockingTaskHandle	Demo/Common/Minimal/recmutex.c	/^static TaskHandle_t xControllingTaskHandle, xBlockingTaskHandle;$/;"	v	file:
 xCallbackParameters	Source/timers.c	/^			CallbackParameters_t xCallbackParameters;$/;"	m	union:tmrTimerQueueMessage::__anon2	file:
 xChangePriorityWhenSuspendedHandle	Demo/Common/Full/dynamic.c	/^static TaskHandle_t xContinuousIncrementHandle, xLimitedIncrementHandle, xChangePriorityWhenSuspendedHandle;$/;"	v	file:
-xCharsForTx	Demo/PIC24_MPLAB/serial/serial.c	/^static QueueHandle_t xCharsForTx; $/;"	v	file:
 xCharsForTx	Demo/dsPIC33E_MPLAB/serial/serial.c	/^static QueueHandle_t xCharsForTx; $/;"	v	file:
-xCharsForTx	Demo/dsPIC33F_MPLAB/serial/serial.c	/^static QueueHandle_t xCharsForTx; $/;"	v	file:
 xCheckVariable	Demo/Common/Full/events.c	/^static portBASE_TYPE xCheckVariable = 0;$/;"	v	file:
 xCoRoutineCreate	Source/croutine.c	/^BaseType_t xCoRoutineCreate( crCOROUTINE_CODE pxCoRoutineCode, UBaseType_t uxPriority, UBaseType_t uxIndex )$/;"	f
 xCoRoutineErrorDetected	Demo/Common/Minimal/crhook.c	/^static BaseType_t xCoRoutineErrorDetected = pdFALSE;$/;"	v	file:
@@ -1959,15 +1767,9 @@ xIsCreateTaskStillRunning	Demo/Common/Minimal/death.c	/^BaseType_t xIsCreateTask
 xIsQueueOverwriteTaskStillRunning	Demo/Common/Minimal/QueueOverwrite.c	/^BaseType_t xIsQueueOverwriteTaskStillRunning( void )$/;"	f
 xItemValue	Source/include/list.h	/^	configLIST_VOLATILE TickType_t xItemValue;			\/*< The value being listed.  In most cases this is used to sort the list in descending order. *\/$/;"	m	struct:xLIST_ITEM
 xItemValue	Source/include/list.h	/^	configLIST_VOLATILE TickType_t xItemValue;$/;"	m	struct:xMINI_LIST_ITEM
-xLCDMessage	Demo/PIC24_MPLAB/lcd.h	/^} xLCDMessage;$/;"	t	typeref:struct:__anon7
-xLCDMessage	Demo/dsPIC33E_MPLAB/lcd.h	/^} xLCDMessage;$/;"	t	typeref:struct:__anon9
-xLCDMessage	Demo/dsPIC33F_MPLAB/lcd.h	/^} xLCDMessage;$/;"	t	typeref:struct:__anon8
-xLCDQueue	Demo/PIC24_MPLAB/lcd.c	/^QueueHandle_t xLCDQueue;$/;"	v
-xLCDQueue	Demo/PIC24_MPLAB/main.c	/^static QueueHandle_t xLCDQueue;$/;"	v	file:
+xLCDMessage	Demo/dsPIC33E_MPLAB/lcd.h	/^} xLCDMessage;$/;"	t	typeref:struct:__anon7
 xLCDQueue	Demo/dsPIC33E_MPLAB/lcd.c	/^QueueHandle_t xLCDQueue;$/;"	v
 xLCDQueue	Demo/dsPIC33E_MPLAB/main.c	/^static QueueHandle_t xLCDQueue;$/;"	v	file:
-xLCDQueue	Demo/dsPIC33F_MPLAB/lcd.c	/^QueueHandle_t xLCDQueue;$/;"	v
-xLCDQueue	Demo/dsPIC33F_MPLAB/main.c	/^static QueueHandle_t xLCDQueue;$/;"	v	file:
 xLEDParameters	Demo/Common/Full/flash.c	/^} xLEDParameters;$/;"	t	typeref:struct:LED_PARAMETERS	file:
 xLIST	Source/include/list.h	/^typedef struct xLIST$/;"	s
 xLIST_ITEM	Source/include/list.h	/^struct xLIST_ITEM$/;"	s
@@ -1987,9 +1789,7 @@ xMediumPriorityTask	Demo/Common/Minimal/QPeek.c	/^TaskHandle_t xMediumPriorityTa
 xMemoryRegion	Source/include/FreeRTOS.h	832;"	d
 xMessageID	Source/timers.c	/^	BaseType_t			xMessageID;			\/*<< The command being sent to the timer service task. *\/$/;"	m	struct:tmrTimerQueueMessage	file:
 xMessageValue	Source/timers.c	/^	TickType_t			xMessageValue;		\/*<< An optional value used by a subset of commands, for example, when changing the period of a timer. *\/$/;"	m	struct:tmrTimerParameters	file:
-xMinDisplayTime	Demo/PIC24_MPLAB/lcd.h	/^	TickType_t xMinDisplayTime;$/;"	m	struct:__anon7
-xMinDisplayTime	Demo/dsPIC33E_MPLAB/lcd.h	/^	TickType_t xMinDisplayTime;$/;"	m	struct:__anon9
-xMinDisplayTime	Demo/dsPIC33F_MPLAB/lcd.h	/^	TickType_t xMinDisplayTime;$/;"	m	struct:__anon8
+xMinDisplayTime	Demo/dsPIC33E_MPLAB/lcd.h	/^	TickType_t xMinDisplayTime;$/;"	m	struct:__anon7
 xMinimumEverFreeBytesRemaining	Source/portable/MemMang/heap_4.c	/^static size_t xMinimumEverFreeBytesRemaining = 0U;$/;"	v	file:
 xMinimumEverFreeBytesRemaining	Source/portable/MemMang/heap_5.c	/^static size_t xMinimumEverFreeBytesRemaining = 0U;$/;"	v	file:
 xMutex	Demo/Common/Minimal/recmutex.c	/^static SemaphoreHandle_t xMutex;$/;"	v	file:
@@ -2098,9 +1898,7 @@ xQueueTakeMutexRecursive	Source/queue.c	/^	BaseType_t xQueueTakeMutexRecursive( 
 xQueues	Demo/Common/Minimal/QueueSet.c	/^static QueueHandle_t xQueues[ queuesetNUM_QUEUES_IN_SET ] = { 0 };$/;"	v	file:
 xRegions	Source/include/task.h	/^	MemoryRegion_t xRegions[ portNUM_CONFIGURABLE_REGIONS ];$/;"	m	struct:xTASK_PARAMETERS
 xRunIndicator	Demo/Common/Minimal/blocktim.c	/^static volatile UBaseType_t xRunIndicator;$/;"	v	file:
-xRxedChars	Demo/PIC24_MPLAB/serial/serial.c	/^static QueueHandle_t xRxedChars; $/;"	v	file:
 xRxedChars	Demo/dsPIC33E_MPLAB/serial/serial.c	/^static QueueHandle_t xRxedChars; $/;"	v	file:
-xRxedChars	Demo/dsPIC33F_MPLAB/serial/serial.c	/^static QueueHandle_t xRxedChars; $/;"	v	file:
 xSTATIC_EVENT_GROUP	Source/include/FreeRTOS.h	/^typedef struct xSTATIC_EVENT_GROUP$/;"	s
 xSTATIC_LIST	Source/include/FreeRTOS.h	/^typedef struct xSTATIC_LIST$/;"	s
 xSTATIC_LIST_ITEM	Source/include/FreeRTOS.h	/^struct xSTATIC_LIST_ITEM$/;"	s
@@ -2134,24 +1932,16 @@ xSemaphoreParameters	Demo/Common/Minimal/semtest.c	/^} xSemaphoreParameters;$/;"
 xSemaphoreTake	Source/include/semphr.h	331;"	d
 xSemaphoreTakeFromISR	Source/include/semphr.h	700;"	d
 xSemaphoreTakeRecursive	Source/include/semphr.h	425;"	d
-xSerialGetChar	Demo/PIC24_MPLAB/serial/serial.c	/^signed portBASE_TYPE xSerialGetChar( xComPortHandle pxPort, signed char *pcRxedChar, TickType_t xBlockTime )$/;"	f
 xSerialGetChar	Demo/dsPIC33E_MPLAB/serial/serial.c	/^signed portBASE_TYPE xSerialGetChar( xComPortHandle pxPort, signed char *pcRxedChar, TickType_t xBlockTime )$/;"	f
-xSerialGetChar	Demo/dsPIC33F_MPLAB/serial/serial.c	/^signed portBASE_TYPE xSerialGetChar( xComPortHandle pxPort, signed char *pcRxedChar, TickType_t xBlockTime )$/;"	f
-xSerialPortInitMinimal	Demo/PIC24_MPLAB/serial/serial.c	/^xComPortHandle xSerialPortInitMinimal( unsigned long ulWantedBaud, unsigned portBASE_TYPE uxQueueLength )$/;"	f
 xSerialPortInitMinimal	Demo/dsPIC33E_MPLAB/serial/serial.c	/^xComPortHandle xSerialPortInitMinimal( unsigned long ulWantedBaud, unsigned portBASE_TYPE uxQueueLength )$/;"	f
-xSerialPortInitMinimal	Demo/dsPIC33F_MPLAB/serial/serial.c	/^xComPortHandle xSerialPortInitMinimal( unsigned long ulWantedBaud, unsigned portBASE_TYPE uxQueueLength )$/;"	f
-xSerialPutChar	Demo/PIC24_MPLAB/serial/serial.c	/^signed portBASE_TYPE xSerialPutChar( xComPortHandle pxPort, signed char cOutChar, TickType_t xBlockTime )$/;"	f
 xSerialPutChar	Demo/dsPIC33E_MPLAB/serial/serial.c	/^signed portBASE_TYPE xSerialPutChar( xComPortHandle pxPort, signed char cOutChar, TickType_t xBlockTime )$/;"	f
-xSerialPutChar	Demo/dsPIC33F_MPLAB/serial/serial.c	/^signed portBASE_TYPE xSerialPutChar( xComPortHandle pxPort, signed char cOutChar, TickType_t xBlockTime )$/;"	f
 xSetupComplete	Demo/Common/Minimal/QueueSet.c	/^static volatile BaseType_t xSetupComplete = pdFALSE;$/;"	v	file:
 xSizeInBytes	Source/include/portable.h	/^	size_t xSizeInBytes;$/;"	m	struct:HeapRegion
 xSlaveHandle	Demo/Common/Minimal/IntSemTest.c	/^static TaskHandle_t xSlaveHandle;$/;"	v	file:
 xStart	Source/portable/MemMang/heap_2.c	/^static BlockLink_t xStart, xEnd;$/;"	v	file:
 xStart	Source/portable/MemMang/heap_4.c	/^static BlockLink_t xStart, *pxEnd = NULL;$/;"	v	file:
 xStart	Source/portable/MemMang/heap_5.c	/^static BlockLink_t xStart, *pxEnd = NULL;$/;"	v	file:
-xStartLCDTask	Demo/PIC24_MPLAB/lcd.c	/^QueueHandle_t xStartLCDTask( void )$/;"	f
 xStartLCDTask	Demo/dsPIC33E_MPLAB/lcd.c	/^QueueHandle_t xStartLCDTask( void )$/;"	f
-xStartLCDTask	Demo/dsPIC33F_MPLAB/lcd.c	/^QueueHandle_t xStartLCDTask( void )$/;"	f
 xStateListItem	Source/tasks.c	/^	ListItem_t			xStateListItem;	\/*< The list that the state list item of a task is reference from denotes the state of that task (Ready, Blocked, Suspended ). *\/$/;"	m	struct:tskTaskControlBlock	file:
 xStringLength	Demo/Common/Minimal/comtest_strings.c	/^static size_t xStringLength = 0U;$/;"	v	file:
 xSuspendedQueueReceiveError	Demo/Common/Full/dynamic.c	/^static portBASE_TYPE xSuspendedQueueReceiveError = pdFALSE;$/;"	v	file:
@@ -2261,9 +2051,7 @@ xTimerStartFromISR	Source/include/timers.h	915;"	d
 xTimerStop	Source/include/timers.h	587;"	d
 xTimerStopFromISR	Source/include/timers.h	978;"	d
 xTimerTaskHandle	Source/timers.c	/^PRIVILEGED_DATA static TaskHandle_t xTimerTaskHandle = NULL;$/;"	v	file:
-xTxHasEnded	Demo/PIC24_MPLAB/serial/serial.c	/^static portBASE_TYPE xTxHasEnded;$/;"	v	file:
 xTxHasEnded	Demo/dsPIC33E_MPLAB/serial/serial.c	/^static portBASE_TYPE xTxHasEnded;$/;"	v	file:
-xTxHasEnded	Demo/dsPIC33F_MPLAB/serial/serial.c	/^static portBASE_TYPE xTxHasEnded;$/;"	v	file:
 xTxTimer	Demo/Common/Minimal/comtest_strings.c	/^static TimerHandle_t xTxTimer = NULL;$/;"	v	file:
 xWasSuspended	Demo/Common/Minimal/IntQueue.c	/^static BaseType_t xWasSuspended = pdFALSE;$/;"	v	file:
 xYieldPending	Source/tasks.c	/^PRIVILEGED_DATA static volatile BaseType_t xYieldPending 			= pdFALSE;$/;"	v	file:

@@ -42,6 +42,10 @@
 *.idb
 *.pdb
 
+# Edit artifacts.
+*.swp
+*.orig
+
 # Kernel Module Compile Results
 *.mod*
 *.cmd

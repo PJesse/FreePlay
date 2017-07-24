@@ -99,7 +99,6 @@
 #include "queue.h"
 
 /* Demo application includes. */
-#include "partest.h"
 #include "crflash.h"
 
 /* The queue should only need to be of length 1.  See the description at the
@@ -232,7 +231,7 @@ UBaseType_t uxLEDToFlash;
 		else
 		{
 			/* We received the number of an LED to flash - flash it! */
-			vParTestToggleLED( uxLEDToFlash );
+			//vParTestToggleLED( uxLEDToFlash );
 		}
 	}
 

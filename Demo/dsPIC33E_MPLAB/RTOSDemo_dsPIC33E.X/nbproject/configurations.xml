@@ -38,7 +38,6 @@
         <itemPath>../../Common/Minimal/integer.c</itemPath>
       </logicalFolder>
       <itemPath>../main.c</itemPath>
-      <itemPath>../ParTest/ParTest.c</itemPath>
       <itemPath>../serial/serial.c</itemPath>
       <itemPath>../timertest.c</itemPath>
       <itemPath>../lcd.c</itemPath>

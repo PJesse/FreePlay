@@ -74,7 +74,6 @@
 #include "FreeRTOS.h"
 
 /* Demo includes. */
-#include "partest.h"
 
 /* The number of interrupts to pass before we start looking at the jitter. */
 #define timerSETTLE_TIME			5

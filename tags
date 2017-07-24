@@ -185,7 +185,6 @@ MPU_xTimerIsTimerActive	Source/portable/Common/mpu_wrappers.c	/^	BaseType_t MPU_
 MPU_xTimerPendFunctionCall	Source/portable/Common/mpu_wrappers.c	/^	BaseType_t MPU_xTimerPendFunctionCall( PendedFunction_t xFunctionToPend, void *pvParameter1, uint32_t ulParameter2, TickType_t xTicksToWait )$/;"	f
 MemoryRegion_t	Source/include/task.h	/^} MemoryRegion_t;$/;"	t	typeref:struct:xMEMORY_REGION
 MiniListItem_t	Source/include/list.h	/^typedef struct xMINI_LIST_ITEM MiniListItem_t;$/;"	t	typeref:struct:xMINI_LIST_ITEM
-PARTEST_H	Demo/Common/include/partest.h	71;"	d
 POLLED_Q_H	Demo/Common/include/PollQ.h	71;"	d
 PORTABLE_H	Source/include/portable.h	75;"	d
 PORTMACRO_H	Source/portable/MPLAB/PIC24_dsPIC/portmacro.h	71;"	d
@@ -278,31 +277,31 @@ blckqSTACK_SIZE	Demo/Common/Full/BlockQ.c	126;"	d	file:
 blckqSTACK_SIZE	Demo/Common/Minimal/BlockQ.c	104;"	d	file:
 cRxLock	Source/queue.c	/^	volatile int8_t cRxLock;		\/*< Stores the number of items received from the queue (removed from the queue) while the queue was locked.  Set to queueUNLOCKED when the queue is not locked. *\/$/;"	m	struct:QueueDefinition	file:
 cTxLock	Source/queue.c	/^	volatile int8_t cTxLock;		\/*< Stores the number of items transmitted to the queue (added to the queue) while the queue was locked.  Set to queueUNLOCKED when the queue is not locked. *\/$/;"	m	struct:QueueDefinition	file:
-comBUFFER_LEN	Demo/Common/Minimal/comtest.c	134;"	d	file:
-comFIRST_BYTE	Demo/Common/Minimal/comtest.c	131;"	d	file:
-comINITIAL_RX_COUNT_VALUE	Demo/Common/Minimal/comtest.c	135;"	d	file:
-comLAST_BYTE	Demo/Common/Minimal/comtest.c	132;"	d	file:
+comBUFFER_LEN	Demo/Common/Minimal/comtest.c	133;"	d	file:
+comFIRST_BYTE	Demo/Common/Minimal/comtest.c	130;"	d	file:
+comINITIAL_RX_COUNT_VALUE	Demo/Common/Minimal/comtest.c	134;"	d	file:
+comLAST_BYTE	Demo/Common/Minimal/comtest.c	131;"	d	file:
 comMAX_CONSECUTIVE_ERRORS	Demo/Common/Full/comtest.c	149;"	d	file:
-comNO_BLOCK	Demo/Common/Minimal/comtest.c	125;"	d	file:
-comOFFSET_TIME	Demo/Common/Minimal/comtest.c	121;"	d	file:
+comNO_BLOCK	Demo/Common/Minimal/comtest.c	124;"	d	file:
+comOFFSET_TIME	Demo/Common/Minimal/comtest.c	120;"	d	file:
 comOFFSET_TIME	Demo/Common/Minimal/comtest_strings.c	128;"	d	file:
-comRX_BLOCK_TIME	Demo/Common/Minimal/comtest.c	128;"	d	file:
-comRX_LED_OFFSET	Demo/Common/Minimal/comtest.c	114;"	d	file:
+comRX_BLOCK_TIME	Demo/Common/Minimal/comtest.c	127;"	d	file:
+comRX_LED_OFFSET	Demo/Common/Minimal/comtest.c	113;"	d	file:
 comRX_LED_OFFSET	Demo/Common/Minimal/comtest_strings.c	121;"	d	file:
 comRX_RELATIVE_PRIORITY	Demo/Common/Full/comtest.c	153;"	d	file:
 comSHORT_DELAY	Demo/Common/Minimal/comtest_strings.c	139;"	d	file:
 comSTACK_SIZE	Demo/Common/Full/comtest.c	151;"	d	file:
-comSTACK_SIZE	Demo/Common/Minimal/comtest.c	112;"	d	file:
+comSTACK_SIZE	Demo/Common/Minimal/comtest.c	111;"	d	file:
 comSTACK_SIZE	Demo/Common/Minimal/comtest_strings.c	117;"	d	file:
-comTOTAL_PERMISSIBLE_ERRORS	Demo/Common/Minimal/comtest.c	115;"	d	file:
+comTOTAL_PERMISSIBLE_ERRORS	Demo/Common/Minimal/comtest.c	114;"	d	file:
 comTRANSACTED_STRING	Demo/Common/Minimal/comtest_strings.c	142;"	d	file:
-comTX_LED_OFFSET	Demo/Common/Minimal/comtest.c	113;"	d	file:
+comTX_LED_OFFSET	Demo/Common/Minimal/comtest.c	112;"	d	file:
 comTX_LED_OFFSET	Demo/Common/Minimal/comtest_strings.c	120;"	d	file:
 comTX_MAX_BLOCK_TIME	Demo/Common/Full/comtest.c	146;"	d	file:
-comTX_MAX_BLOCK_TIME	Demo/Common/Minimal/comtest.c	119;"	d	file:
+comTX_MAX_BLOCK_TIME	Demo/Common/Minimal/comtest.c	118;"	d	file:
 comTX_MAX_BLOCK_TIME	Demo/Common/Minimal/comtest_strings.c	126;"	d	file:
 comTX_MIN_BLOCK_TIME	Demo/Common/Full/comtest.c	147;"	d	file:
-comTX_MIN_BLOCK_TIME	Demo/Common/Minimal/comtest.c	120;"	d	file:
+comTX_MIN_BLOCK_TIME	Demo/Common/Minimal/comtest.c	119;"	d	file:
 comTX_MIN_BLOCK_TIME	Demo/Common/Minimal/comtest_strings.c	127;"	d	file:
 comtstDONT_BLOCK	Demo/Common/Minimal/comtest_strings.c	145;"	d	file:
 comtstWAITING_END_OF_STRING	Demo/Common/Minimal/comtest_strings.c	132;"	d	file:
@@ -382,12 +381,12 @@ crQUEUE_SEND_FROM_ISR	Source/include/croutine.h	623;"	d
 crSET_STATE0	Source/include/croutine.h	283;"	d
 crSET_STATE1	Source/include/croutine.h	284;"	d
 crSTART	Source/include/croutine.h	246;"	d
-crfFIXED_DELAY_PRIORITY	Demo/Common/Minimal/crflash.c	109;"	d	file:
-crfFLASH_INDEX	Demo/Common/Minimal/crflash.c	113;"	d	file:
-crfFLASH_PRIORITY	Demo/Common/Minimal/crflash.c	110;"	d	file:
-crfMAX_FLASH_TASKS	Demo/Common/Minimal/crflash.c	117;"	d	file:
-crfPOSTING_BLOCK_TIME	Demo/Common/Minimal/crflash.c	120;"	d	file:
-crfQUEUE_LENGTH	Demo/Common/Minimal/crflash.c	107;"	d	file:
+crfFIXED_DELAY_PRIORITY	Demo/Common/Minimal/crflash.c	108;"	d	file:
+crfFLASH_INDEX	Demo/Common/Minimal/crflash.c	112;"	d	file:
+crfFLASH_PRIORITY	Demo/Common/Minimal/crflash.c	109;"	d	file:
+crfMAX_FLASH_TASKS	Demo/Common/Minimal/crflash.c	116;"	d	file:
+crfPOSTING_BLOCK_TIME	Demo/Common/Minimal/crflash.c	119;"	d	file:
+crfQUEUE_LENGTH	Demo/Common/Minimal/crflash.c	106;"	d	file:
 deathSTACK_SIZE	Demo/Common/Full/death.c	106;"	d	file:
 deathSTACK_SIZE	Demo/Common/Minimal/death.c	99;"	d	file:
 eAbortSleep	Source/include/task.h	/^	eAbortSleep = 0,		\/* A task has been made ready or a context switch pended since portSUPPORESS_TICKS_AND_SLEEP() was called - abort entering a sleep mode. *\/$/;"	e	enum:__anon5
@@ -560,19 +559,19 @@ listTEST_LIST_INTEGRITY	Source/include/list.h	174;"	d
 listTEST_LIST_ITEM_INTEGRITY	Source/include/list.h	156;"	d
 listTEST_LIST_ITEM_INTEGRITY	Source/include/list.h	173;"	d
 main	Demo/dsPIC33E_MPLAB/main.c	/^int main( void )$/;"	f
-mainBLOCK_Q_PRIORITY	Demo/dsPIC33E_MPLAB/main.c	121;"	d	file:
-mainCHECK_TAKS_STACK_SIZE	Demo/dsPIC33E_MPLAB/main.c	126;"	d	file:
-mainCHECK_TASK_PERIOD	Demo/dsPIC33E_MPLAB/main.c	129;"	d	file:
-mainCHECK_TASK_PRIORITY	Demo/dsPIC33E_MPLAB/main.c	122;"	d	file:
-mainCOM_TEST_BAUD_RATE	Demo/dsPIC33E_MPLAB/main.c	135;"	d	file:
-mainCOM_TEST_LED	Demo/dsPIC33E_MPLAB/main.c	139;"	d	file:
-mainCOM_TEST_PRIORITY	Demo/dsPIC33E_MPLAB/main.c	123;"	d	file:
-mainEXPECTED_CLOCKS_BETWEEN_INTERRUPTS	Demo/dsPIC33E_MPLAB/main.c	146;"	d	file:
+mainBLOCK_Q_PRIORITY	Demo/dsPIC33E_MPLAB/main.c	120;"	d	file:
+mainCHECK_TAKS_STACK_SIZE	Demo/dsPIC33E_MPLAB/main.c	125;"	d	file:
+mainCHECK_TASK_PERIOD	Demo/dsPIC33E_MPLAB/main.c	128;"	d	file:
+mainCHECK_TASK_PRIORITY	Demo/dsPIC33E_MPLAB/main.c	121;"	d	file:
+mainCOM_TEST_BAUD_RATE	Demo/dsPIC33E_MPLAB/main.c	134;"	d	file:
+mainCOM_TEST_LED	Demo/dsPIC33E_MPLAB/main.c	138;"	d	file:
+mainCOM_TEST_PRIORITY	Demo/dsPIC33E_MPLAB/main.c	122;"	d	file:
+mainEXPECTED_CLOCKS_BETWEEN_INTERRUPTS	Demo/dsPIC33E_MPLAB/main.c	145;"	d	file:
 mainHOOK_CR_PRIORITY	Demo/Common/Minimal/crhook.c	116;"	d	file:
-mainMAX_STRING_LENGTH	Demo/dsPIC33E_MPLAB/main.c	153;"	d	file:
-mainNS_PER_CLOCK	Demo/dsPIC33E_MPLAB/main.c	149;"	d	file:
-mainNUM_FLASH_COROUTINES	Demo/dsPIC33E_MPLAB/main.c	132;"	d	file:
-mainTEST_INTERRUPT_FREQUENCY	Demo/dsPIC33E_MPLAB/main.c	142;"	d	file:
+mainMAX_STRING_LENGTH	Demo/dsPIC33E_MPLAB/main.c	152;"	d	file:
+mainNS_PER_CLOCK	Demo/dsPIC33E_MPLAB/main.c	148;"	d	file:
+mainNUM_FLASH_COROUTINES	Demo/dsPIC33E_MPLAB/main.c	131;"	d	file:
+mainTEST_INTERRUPT_FREQUENCY	Demo/dsPIC33E_MPLAB/main.c	141;"	d	file:
 mathNUMBER_OF_TASKS	Demo/Common/Full/flop.c	106;"	d	file:
 mathNUMBER_OF_TASKS	Demo/Common/Minimal/flop.c	98;"	d	file:
 mathNUMBER_OF_TASKS	Demo/Common/Minimal/sp_flop.c	94;"	d	file:
@@ -583,7 +582,6 @@ mtCOVERAGE_TEST_DELAY	Source/include/FreeRTOS.h	752;"	d
 mtCOVERAGE_TEST_MARKER	Source/include/FreeRTOS.h	748;"	d
 notifyTASK_PRIORITY	Demo/Common/Minimal/TaskNotify.c	86;"	d	file:
 notifyUINT32_MAX	Demo/Common/Minimal/TaskNotify.c	87;"	d	file:
-partstDEFAULT_PORT_ADDRESS	Demo/Common/include/partest.h	73;"	d
 pcBlockingTaskName	Demo/Common/Minimal/AbortDelay.c	/^static const char *pcControllingTaskName = "AbtCtrl", *pcBlockingTaskName = "AbtBlk";$/;"	v	file:
 pcControllingTaskName	Demo/Common/Minimal/AbortDelay.c	/^static const char *pcControllingTaskName = "AbtCtrl", *pcBlockingTaskName = "AbtBlk";$/;"	v	file:
 pcHead	Source/queue.c	/^	int8_t *pcHead;					\/*< Points to the beginning of the queue storage area. *\/$/;"	m	struct:QueueDefinition	file:
@@ -887,7 +885,6 @@ prvSelectiveBitsTestSlaveFunction	Demo/Common/Minimal/EventGroupsDemo.c	/^static
 prvSemaphoreTest	Demo/Common/Full/semtest.c	/^static void prvSemaphoreTest( void *pvParameters )$/;"	f	file:
 prvSendFrontAndBackTest	Demo/Common/Minimal/GenQTest.c	/^static void prvSendFrontAndBackTest( void *pvParameters )$/;"	f	file:
 prvSendToQueueInSetFromISR	Demo/Common/Minimal/QueueSet.c	/^static void prvSendToQueueInSetFromISR( void )$/;"	f	file:
-prvSetupHardware	Demo/dsPIC33E_MPLAB/main.c	/^static void prvSetupHardware( void )$/;"	f	file:
 prvSetupLCD	Demo/dsPIC33E_MPLAB/lcd.c	/^static void prvSetupLCD( void )$/;"	f	file:
 prvSetupTest	Demo/Common/Minimal/QueueSet.c	/^static void prvSetupTest( void )$/;"	f	file:
 prvSingleTaskTests	Demo/Common/Minimal/TaskNotify.c	/^static void prvSingleTaskTests( void )$/;"	f	file:
@@ -924,8 +921,6 @@ prvUnlockQueue	Source/queue.c	/^static void prvUnlockQueue( Queue_t * const pxQu
 prvWriteNameToBuffer	Source/tasks.c	/^	static char *prvWriteNameToBuffer( char *pcBuffer, const char *pcTaskName )$/;"	f	file:
 psCheckVariable	Demo/Common/Full/BlockQ.c	/^	volatile short *psCheckVariable;	\/*< Incremented on each successful cycle to check the task is still running. *\/$/;"	m	struct:BLOCKING_QUEUE_PARAMETERS	file:
 psCheckVariable	Demo/Common/Minimal/BlockQ.c	/^	volatile short *psCheckVariable;	\/*< Incremented on each successful cycle to check the task is still running. *\/$/;"	m	struct:BLOCKING_QUEUE_PARAMETERS	file:
-ptALL_OFF	Demo/dsPIC33E_MPLAB/ParTest/ParTest.c	77;"	d	file:
-ptOUTPUT	Demo/dsPIC33E_MPLAB/ParTest/ParTest.c	76;"	d	file:
 pucStartAddress	Source/include/portable.h	/^	uint8_t *pucStartAddress;$/;"	m	struct:HeapRegion
 pulSharedVariable	Demo/Common/Full/semtest.c	/^	volatile unsigned long *pulSharedVariable;$/;"	m	struct:SEMAPHORE_PARAMETERS	file:
 pulSharedVariable	Demo/Common/Minimal/semtest.c	/^	volatile uint32_t *pulSharedVariable;$/;"	m	struct:SEMAPHORE_PARAMETERS	file:
@@ -1162,12 +1157,12 @@ taskWAITING_NOTIFICATION	Source/tasks.c	111;"	d	file:
 taskYIELD	Source/include/task.h	203;"	d
 taskYIELD_IF_USING_PREEMPTION	Source/tasks.c	104;"	d	file:
 taskYIELD_IF_USING_PREEMPTION	Source/tasks.c	106;"	d	file:
-timerMAX_COUNT	Demo/dsPIC33E_MPLAB/timertest.c	83;"	d	file:
+timerMAX_COUNT	Demo/dsPIC33E_MPLAB/timertest.c	82;"	d	file:
 timerNORMALLY_EMPTY_RX	Demo/Common/Minimal/IntQueue.c	173;"	d	file:
 timerNORMALLY_EMPTY_TX	Demo/Common/Minimal/IntQueue.c	139;"	d	file:
 timerNORMALLY_FULL_RX	Demo/Common/Minimal/IntQueue.c	185;"	d	file:
 timerNORMALLY_FULL_TX	Demo/Common/Minimal/IntQueue.c	156;"	d	file:
-timerSETTLE_TIME	Demo/dsPIC33E_MPLAB/timertest.c	80;"	d	file:
+timerSETTLE_TIME	Demo/dsPIC33E_MPLAB/timertest.c	79;"	d	file:
 tmrCOMMAND_CHANGE_PERIOD	Source/include/timers.h	102;"	d
 tmrCOMMAND_CHANGE_PERIOD_FROM_ISR	Source/include/timers.h	109;"	d
 tmrCOMMAND_DELETE	Source/include/timers.h	103;"	d
@@ -1401,7 +1396,6 @@ uxNextRand	Demo/Common/Minimal/QueueSet.c	/^static size_t uxNextRand = 0;$/;"	v	
 uxNextRand	Demo/Common/Minimal/TaskNotify.c	/^static size_t uxNextRand = 0;$/;"	v	file:
 uxNumberOfItems	Source/include/list.h	/^	configLIST_VOLATILE UBaseType_t uxNumberOfItems;$/;"	m	struct:xLIST
 uxNumberToPost	Demo/Common/Minimal/crhook.c	/^static UBaseType_t uxCallCounter = 0, uxNumberToPost = 0;$/;"	v	file:
-uxOutput	Demo/dsPIC33E_MPLAB/ParTest/ParTest.c	/^unsigned portBASE_TYPE uxOutput;$/;"	v
 uxPendedTicks	Source/tasks.c	/^PRIVILEGED_DATA static volatile UBaseType_t uxPendedTicks 			= ( UBaseType_t ) 0U;$/;"	v	file:
 uxPollingCycles	Demo/Common/Minimal/recmutex.c	/^static volatile UBaseType_t uxControllingCycles = 0, uxBlockingCycles = 0, uxPollingCycles = 0;$/;"	v	file:
 uxPriority	Source/include/croutine.h	/^	UBaseType_t 		uxPriority;			\/*< The priority of the co-routine in relation to other co-routines. *\/$/;"	m	struct:corCoRoutineControlBlock
@@ -1485,9 +1479,6 @@ vListInitialise	Source/list.c	/^void vListInitialise( List_t * const pxList )$/;
 vListInitialiseItem	Source/list.c	/^void vListInitialiseItem( ListItem_t * const pxItem )$/;"	f
 vListInsert	Source/list.c	/^void vListInsert( List_t * const pxList, ListItem_t * const pxNewListItem )$/;"	f
 vListInsertEnd	Source/list.c	/^void vListInsertEnd( List_t * const pxList, ListItem_t * const pxNewListItem )$/;"	f
-vParTestInitialise	Demo/dsPIC33E_MPLAB/ParTest/ParTest.c	/^void vParTestInitialise( void )$/;"	f
-vParTestSetLED	Demo/dsPIC33E_MPLAB/ParTest/ParTest.c	/^void vParTestSetLED( unsigned portBASE_TYPE uxLED, signed portBASE_TYPE xValue )$/;"	f
-vParTestToggleLED	Demo/dsPIC33E_MPLAB/ParTest/ParTest.c	/^void vParTestToggleLED( unsigned portBASE_TYPE uxLED )$/;"	f
 vPeriodicEventGroupsProcessing	Demo/Common/Minimal/EventGroupsDemo.c	/^void vPeriodicEventGroupsProcessing( void )$/;"	f
 vPolledQueueConsumer	Demo/Common/Full/PollQ.c	/^static void vPolledQueueConsumer( void *pvParameters )$/;"	f	file:
 vPolledQueueProducer	Demo/Common/Full/PollQ.c	/^static void vPolledQueueProducer( void *pvParameters )$/;"	f	file:

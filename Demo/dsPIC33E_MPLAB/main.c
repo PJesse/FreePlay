@@ -113,7 +113,6 @@
 #include "blocktim.h"
 #include "integer.h"
 #include "comtest2.h"
-#include "partest.h"
 #include "lcd.h"
 #include "timertest.h"
 
@@ -159,11 +158,6 @@ it is converted to a string. */
  */
 static void vCheckTask( void *pvParameters );
 
-/*
- * Setup the processor ready for the demo.
- */
-static void prvSetupHardware( void );
-
 /*-----------------------------------------------------------*/
 
 /* The queue used to send messages to the LCD task. */
@@ -177,7 +171,6 @@ static QueueHandle_t xLCDQueue;
 int main( void )
 {
 	/* Configure any hardware required for this demo. */
-	prvSetupHardware();
 
 	/* Create the standard demo tasks. */
 	vStartBlockingQueueTasks( mainBLOCK_Q_PRIORITY );
@@ -205,10 +198,6 @@ int main( void )
 }
 /*-----------------------------------------------------------*/
 
-static void prvSetupHardware( void )
-{
-	vParTestInitialise();
-}
 /*-----------------------------------------------------------*/
 
 static void vCheckTask( void *pvParameters )

@@ -40,7 +40,6 @@
       <itemPath>../main.c</itemPath>
       <itemPath>../serial/serial.c</itemPath>
       <itemPath>../timertest.c</itemPath>
-      <itemPath>../lcd.c</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"

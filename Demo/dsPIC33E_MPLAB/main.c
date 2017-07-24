@@ -113,7 +113,6 @@
 #include "blocktim.h"
 #include "integer.h"
 #include "comtest2.h"
-#include "lcd.h"
 #include "timertest.h"
 
 /* Demo task priorities. */
@@ -160,9 +159,6 @@ static void vCheckTask( void *pvParameters );
 
 /*-----------------------------------------------------------*/
 
-/* The queue used to send messages to the LCD task. */
-static QueueHandle_t xLCDQueue;
-
 /*-----------------------------------------------------------*/
 
 /*
@@ -181,10 +177,6 @@ int main( void )
 
 	/* Create the test tasks defined within this file. */
 	xTaskCreate( vCheckTask, "Check", mainCHECK_TAKS_STACK_SIZE, NULL, mainCHECK_TASK_PRIORITY, NULL );
-
-	/* Start the task that will control the LCD.  This returns the handle
-	to the queue used to write text out to the task. */
-	xLCDQueue = xStartLCDTask();
 
 	/* Start the high frequency interrupt test. */
 	vSetupTimerTest( mainTEST_INTERRUPT_FREQUENCY );
@@ -210,12 +202,6 @@ extern unsigned short usMaxJitter ;
 
 /* Buffer into which the maximum jitter time is written as a string. */
 static char cStringBuffer[ mainMAX_STRING_LENGTH ];
-
-/* The message that is sent on the queue to the LCD task.  The first
-parameter is the minimum time (in ticks) that the message should be
-left on the LCD without being overwritten.  The second parameter is a pointer
-to the message to display itself. */
-xLCDMessage xMessage = { 0, cStringBuffer };
 
 /* Set to pdTRUE should an error be detected in any of the standard demo tasks. */
 unsigned short usErrorDetected = pdFALSE;
@@ -262,8 +248,6 @@ unsigned short usErrorDetected = pdFALSE;
 			sprintf( cStringBuffer, "%dns max jitter", ( short ) ( usMaxJitter - mainEXPECTED_CLOCKS_BETWEEN_INTERRUPTS ) * mainNS_PER_CLOCK );
 		}
 
-		/* Send the message to the LCD gatekeeper for display. */
-		xQueueSend( xLCDQueue, &xMessage, portMAX_DELAY );
 	}
 }
 /*-----------------------------------------------------------*/
